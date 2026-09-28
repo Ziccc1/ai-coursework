@@ -1,0 +1,69 @@
+{
+  "created_utc": "2026-09-28T06:26:22.632741+00:00",
+  "random_state": 42,
+  "train_validation_split": "stratified 80:20",
+  "cv": "StratifiedKFold(n_splits=3, shuffle=True, random_state=42)",
+  "max_features": 20000,
+  "min_df": 2,
+  "sublinear_tf": true,
+  "base_analyzer": "word",
+  "base_ngram_range": [
+    1,
+    2
+  ],
+  "mlp_grid": {
+    "hidden_layer_sizes": [
+      [
+        50
+      ],
+      [
+        100
+      ]
+    ],
+    "alpha": [
+      0.0001,
+      1e-05
+    ]
+  },
+  "sgd_comparison_models": {
+    "SGDClassifier_log_loss": {
+      "loss": "log_loss",
+      "alpha_grid": [
+        1e-05,
+        0.0001,
+        0.001,
+        0.01
+      ]
+    },
+    "SGDClassifier_hinge": {
+      "loss": "hinge",
+      "alpha_grid": [
+        1e-05,
+        0.0001,
+        0.001,
+        0.01
+      ]
+    }
+  },
+  "curve_epochs": 200,
+  "curve_batch_size": 200,
+  "feature_representation_ablation": "omitted by user decision",
+  "train_rows": 5894,
+  "validation_rows": 1474,
+  "label_counts_all": {
+    "7": 738,
+    "3": 742,
+    "2": 737,
+    "1": 739,
+    "4": 747,
+    "0": 730,
+    "5": 745,
+    "6": 743,
+    "9": 705,
+    "8": 742
+  },
+  "python": "3.10.21 | packaged by conda-forge | (main, Aug 21 2026, 22:38:44) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.2.6",
+  "pandas": "2.3.3",
+  "scikit_learn": "1.7.2"
+}
