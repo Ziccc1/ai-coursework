@@ -136,7 +136,7 @@ python tfidf_ablation.py
 | `outputs/confusion_matrices/*_validation.csv`、`.png`                                    | 六模型在**原始文本主实验**上的验证集混淆矩阵；不是最终清洗方案的混淆矩阵。                   |
 | `outputs/models/*_best_on_outer_train.joblib`                                            | 训练部分拟合的各模型候选文件，供结果检查及 `final.py` 读取参数设置。                         |
 | `outputs/selected_final_model.joblib`                                                    | 按最终方案在全部有标签数据上重新拟合的模型。                                                 |
-| `outputs/submission_metadata.json`                                                       | 最终模型、清洗条件、样本数及预测文件位置。                                                   |
+| `outputs/submission_metadata.json`                                                       | 运行 `final.py` 后生成的最终预测记录，包含模型、清洗条件、样本数及文件位置；此文件未随仓库提交。 |
 | **`outputs/predictions.csv`**                                                            | **实际提交的预测结果：2457 行、单列、无表头。**                                              |
 
 在相同数据及上述环境中重新运行后，数据划分、六模型汇总、逐轮曲线数据、清洗消融数据和六张混淆矩阵的 CSV 与上一次运行一致；`outputs/predictions.csv` 也与上一次最终预测一致。
