@@ -1,0 +1,5 @@
+﻿setting,setting_label,model,cleaning,C,max_features,ngram_range,min_df,sublinear_tf,n_features,train_accuracy,validation_accuracy,validation_macro_f1
+baseline,基准：词 1–2 元,LogisticRegression,keep_subject,100.0,20000,"(1, 2)",2,True,20000,0.999830335934849,0.9355495251017639,0.9361728274990699
+unigram,仅词 1 元,LogisticRegression,keep_subject,100.0,20000,"(1, 1)",2,True,20000,0.999830335934849,0.9382632293080054,0.9384870212364455
+min_df_1,min_df=1,LogisticRegression,keep_subject,100.0,20000,"(1, 2)",1,True,20000,0.999830335934849,0.9348710990502035,0.9355548421393592
+linear_tf,不使用次线性词频,LogisticRegression,keep_subject,100.0,20000,"(1, 2)",2,False,20000,0.999830335934849,0.9341926729986432,0.9347037789454926

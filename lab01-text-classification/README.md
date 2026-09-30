@@ -1,6 +1,6 @@
 # 实验一：新闻文本分类
 
-本项目的实验任务是根据新闻文本预测10个类别，实验比较朴素贝叶斯、线性 SVC、逻辑回归、单隐藏层MLP，以及两个使用随机梯度下降（SGD）的线性分类器；另外分析训练曲线和文本清洗的影响。最终预测方案为**逻辑回归 + 删除非 Subject 邮件头**。
+本项目的实验任务是根据新闻文本预测10个类别，实验比较朴素贝叶斯、线性 SVC、逻辑回归、单隐藏层MLP，以及两个使用随机梯度下降（SGD）的线性分类器；另外分析训练曲线、文本清洗和 TF-IDF 设置的影响。最终预测方案为**逻辑回归 + 删除非 Subject 邮件头**，沿用主实验的词 1–2 元 TF-IDF 设置。
 
 ## 1. 文件说明
 
@@ -8,6 +8,7 @@
 | ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
 | `experiment.py`              | 读取有标签数据，划分训练集和验证集，完成参数搜索、六模型比较、逐轮曲线、混淆矩阵和清洗消融。**不读取无标签测试集，也不生成最终预测。** |
 | `plot_epoch_curves_focus.py` | 读取 `outputs/epoch_curves.csv`，绘制聚焦训练前期变化的曲线；不重新训练模型。                                                          |
+| `tfidf_ablation.py`          | 沿用主实验的训练/验证划分，单独比较四组 TF-IDF 设置；不重跑六模型主实验，也不生成测试集预测。                                          |
 | `final.py`                   | 使用已确定的逻辑回归参数和清洗规则，在全部有标签数据上重新拟合，再对无标签测试集预测。                                                 |
 | `train_data.csv`             | 有标签数据，包含 `text` 和 `target` 两列。                                                                                             |
 | `test_data_unlabeled.csv`    | 待预测数据，包含 `text` 列。                                                                                                           |
@@ -39,7 +40,7 @@ python -m pip install numpy==2.2.6 pandas==2.3.3 scipy==1.15.2 scikit-learn==1.7
 
 ## 3. 运行方法
 
-在包含三个 Python 脚本及两个数据 CSV 的目录中运行：
+在包含实验脚本及两个数据 CSV 的目录中运行主实验和最终预测：
 
 ```powershell
 python experiment.py
@@ -55,6 +56,14 @@ python final.py
 
 脚本以自身所在目录定位输入和输出文件，无须修改绝对路径。若只想复现图表，可不运行 `final.py`；若只想重新生成聚焦曲线图，不必重跑 `experiment.py`。
 
+TF-IDF 消融是后来增加的独立补充实验。首次运行前需通过 `python experiment.py` 生成 `outputs/split_indices.json`；如果仓库中已有该文件，可以直接运行：
+
+```powershell
+python tfidf_ablation.py
+```
+
+该命令只重新拟合四组逻辑回归与 TF-IDF 流水线，结果写入 `outputs/tfidf_ablation/`。它不修改主实验结果或 `outputs/predictions.csv`，也不需要运行 `final.py`。
+
 ## 4. 实验设置
 
 ### 4.1 数据划分与防止信息泄露
@@ -67,7 +76,7 @@ python final.py
 
 ### 4.2 文本表示与预处理
 
-主实验使用词级 TF-IDF，设置为 `ngram_range=(1, 2)`、`max_features=20000`、`min_df=2`、`sublinear_tf=True`。其余未显式设置的选项采用本环境中 `TfidfVectorizer` 的默认值。主比较使用原始文本，不额外执行停用词删除、stemming 或标点删除；脚本也**没有**按是否含中文自动切换字符 n-gram。这样可以使主比较与清洗消融各自的变化因素明确。
+六模型主比较统一使用词级 TF-IDF，设置为 `ngram_range=(1, 2)`、`max_features=20000`、`min_df=2`、`sublinear_tf=True`。其余未显式设置的选项采用本环境中 `TfidfVectorizer` 的默认值。主比较使用原始文本，不额外执行停用词删除、stemming 或标点删除；脚本也**没有**按是否含中文自动切换字符 n-gram。主比较阶段统一文本表示，使模型之间的分数具有可比性；后续消融分别改变清洗条件或 TF-IDF 设置。
 
 ### 4.3 模型、搜索范围与指标
 
@@ -92,6 +101,10 @@ python final.py
 
 在四个课程模型上比较以下五种文本条件：原始文本、删除非 Subject 邮件头、删除全部邮件头（包括 Subject）、在保留 Subject 和正文的基础上删除引用回复行、在保留 Subject 和正文的基础上删除签名块。每种条件均对同一训练集与验证集应用相同规则，固定**原始文本搜索得到的模型参数**，重新拟合 TF-IDF 与分类器。清洗消融不再对每种条件单独搜索参数，因此其结果回答的是“在原参数下改变清洗方式有什么影响”。
 
+### 4.6 TF-IDF 设置消融
+
+补充实验沿用 `outputs/split_indices.json` 中的训练/验证划分，固定逻辑回归 `C=100`、删除非 Subject 邮件头的清洗方式，以及 `max_features=20000`。以主实验的词 1–2 元、`min_df=2`、`sublinear_tf=True` 为基准，每组只改变一项：仅用词 1 元、将 `min_df` 改为 1、或将 `sublinear_tf` 改为 `False`。每组均在训练部分重新拟合 TF-IDF 词表和分类器，再计算同一留出验证集的 Accuracy 与 Macro-F1。此步骤不重新搜索模型参数。
+
 ## 5. 本次结果与最终方案
 
 下表为 `outputs/model_comparison.csv` 中的主实验结果。CV 准确率来自训练部分的三折交叉验证；验证集指标来自独立的留出验证集。
@@ -107,6 +120,8 @@ python final.py
 
 原始文本的六模型比较中，SGD hinge 的留出验证集准确率最高。清洗消融中，**逻辑回归 + 删除非 Subject 邮件头**达到验证集准确率 **93.55%**、Macro-F1 **93.62%**，因而选为最终预测方案。`final.py` 固定该方案，将全部 **7368** 条有标签样本用于最后一次拟合，再预测 **2457** 条无标签样本。以上验证集分数用于方案选择，不能作为无标签测试集的真实分数。
 
+补充的 TF-IDF 消融中，仅使用词 1 元时，验证集 Accuracy 为 **93.83%**、Macro-F1 为 **93.85%**；基准设置分别为 **93.55%** 和 **93.62%**。准确率差异对应 1474 条验证样本中多分对 4 条。这是在已查看同一验证集结果之后进行的探索，且新设置未重新进行完整的参数搜索与模型比较。因此本次提交保留已确定的词 1–2 元最终预测方案，将词 1 元的结果作为后续改进线索。
+
 ## 6. 输出文件与复现检查
 
 | 路径                                                                                     | 内容                                                                                         |
@@ -117,6 +132,7 @@ python final.py
 | `outputs/cv_results/*_grid.csv`、`outputs/grid_search_comparison.png`                    | 每组参数的交叉验证结果与参数对比图。                                                         |
 | `outputs/epoch_curves.csv`、`outputs/epoch_curves.png`、`outputs/epoch_curves_focus.png` | 小批次及逐轮指标、完整曲线图和聚焦曲线图。聚焦图目前包含三种模型各一张准确率图和一张损失图。 |
 | `outputs/cleaning_ablation.csv`、`.png`                                                  | 四模型 × 五种文本条件的消融结果。                                                            |
+| `outputs/tfidf_ablation/tfidf_ablation.csv`、`.png`                                       | 固定逻辑回归与清洗条件后的四组 TF-IDF 设置消融结果及对比图。                                  |
 | `outputs/confusion_matrices/*_validation.csv`、`.png`                                    | 六模型在**原始文本主实验**上的验证集混淆矩阵；不是最终清洗方案的混淆矩阵。                   |
 | `outputs/models/*_best_on_outer_train.joblib`                                            | 训练部分拟合的各模型候选文件，供结果检查及 `final.py` 读取参数设置。                         |
 | `outputs/selected_final_model.joblib`                                                    | 按最终方案在全部有标签数据上重新拟合的模型。                                                 |
@@ -124,3 +140,5 @@ python final.py
 | **`outputs/predictions.csv`**                                                            | **实际提交的预测结果：2457 行、单列、无表头。**                                              |
 
 在相同数据及上述环境中重新运行后，数据划分、六模型汇总、逐轮曲线数据、清洗消融数据和六张混淆矩阵的 CSV 与上一次运行一致；`outputs/predictions.csv` 也与上一次最终预测一致。
+
+`outputs/experiment_config.json` 记录的是主实验当时的配置；TF-IDF 消融为其后新增的独立实验，参数和结果以 `tfidf_ablation.py` 及 `outputs/tfidf_ablation/` 为准。
