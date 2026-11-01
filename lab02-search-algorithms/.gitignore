@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+**/outputs_reproduced/
+verification/local/
+*.zip
+*.aux
+*.log
+*.out
+*.toc
+.DS_Store
+Thumbs.db

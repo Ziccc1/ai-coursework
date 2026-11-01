@@ -1,0 +1,68 @@
+{
+  "source_hash_aliases": {
+    "94b13dcde43b9972af04b1de1fdf2ee597d18973c0ff3ae0774601ebe75a3520": "13d13f52f3751d7a0f9703fe178bafef22a10639579ed988106845751cc34cf4",
+    "6428a5082972aeece256b107a2ff55447d3eda853cd5dde24f6578de60955c73": "84faaca4cf88d763910370f89564edadda8110bbf8ea5b3a7bb8194865449f8d",
+    "59f16202c3876dd948699bf231bc7902a0383d8d1a91aaa3debb60fe61252609": "13d13f52f3751d7a0f9703fe178bafef22a10639579ed988106845751cc34cf4",
+    "8ba081d2f0998ba85f5ae0e4eb6e0af65be67b58f4cc4f45c11636f570854774": "84faaca4cf88d763910370f89564edadda8110bbf8ea5b3a7bb8194865449f8d"
+  },
+  "files": {
+    "searchlab/__init__.py": {
+      "before_sha256": "af978555805381eec01434310d859343ce22249825db7679c9f001e7873c10f0",
+      "after_sha256": "377fba9b22e29d27545644a626df11d098b4c07f2b06b9c1c506a046c3f3efba",
+      "code_signature": "9f4c779781f9e493536cdb45f573d66021c92802422b64501f9f47bb95b4e3d2"
+    },
+    "searchlab/experiments.py": {
+      "before_sha256": "f53916d42b0ee348983e8f29a3753543958c96e712f27e842451022a5cbe13ad",
+      "after_sha256": "a8027b67ad52e34e0c033e0b6175bf5464f97468c30058d313985931c7a61311",
+      "code_signature": "cc5dc0bddd9ac0910e39cbff1e2e77710b587a91bc66c25d0306bf51cf849c4e",
+      "chinese_comments_verified": true
+    },
+    "searchlab/fixtures.py": {
+      "before_sha256": "72c0119d8f1e7b96e64a10cad979beaae9f4900a9f85f46b19a468f919568073",
+      "after_sha256": "c8eb9badd7d3277e753be67d077f622cd3379eb081b1af7ca0da9100449421e1",
+      "code_signature": "40437a7c73a93813dc4e6c20c17c872d74735d2297db2ce40766d234f50b8af7"
+    },
+    "searchlab/generators.py": {
+      "before_sha256": "c69360caff245d616c69437bf2e452ce3020abbbb24068214466bab3a23ed8a1",
+      "after_sha256": "51f5e0d03e9032ec6f5d7969f480033aa150167fb17cbf7011ac9bb750766da8",
+      "code_signature": "066782f49204189fde3276b1ce287a968a48e2df2828f95307eaa262e2b61af8"
+    },
+    "searchlab/grid.py": {
+      "before_sha256": "0f4ce6a628e2aeb4129510c76a7d91c4f24071da9246daf92a7738e8a42e0c29",
+      "after_sha256": "21fbc04e437590bf163c8bc65cece93175e50380115b30194cbaa3b8e6ad5231",
+      "code_signature": "5b6ada6dfca5ab7ec4a6de54528c8f00d6eb90bfa4742770f0109ab67ff0d2ec"
+    },
+    "searchlab/reference.py": {
+      "before_sha256": "44c85d14cfd6bd3cc44b5e108ccc7527cc539f68a315adc850de34e15e9e026e",
+      "after_sha256": "11b6c5953b39d29422afecea2a726d5e9d11ba51235e70297eadf0501cc59b60",
+      "code_signature": "20e4a60be83fb82bf0426507b67002e155ed08bdec54b17d2cf5ec8f76ad13cd",
+      "chinese_comments_verified": true
+    },
+    "searchlab/treasure.py": {
+      "before_sha256": "1f77eebe7ad50e889f68a778cb5c7a4986be587dfe63908950e3906866e015b3",
+      "after_sha256": "ee293a955279de8d8bc34458c3636ff1173dcca86ec854e5daeea08ecdc62da6",
+      "code_signature": "b4c2db4cb5b0b6ee26f65e2abed3626e1ddf44d4a6da0df1eba0eb4cad1a5f1d",
+      "chinese_comments_verified": true
+    },
+    "searchlab/treasure_experiments.py": {
+      "before_sha256": "62606b5bda4824027634ae2d15db001f25d9b2c259e4d94100b8aec06fd9bca8",
+      "after_sha256": "4b30cc8998da332df80af991d8ddacccb895f7a0757fcc8093865cf7d9373bf5",
+      "code_signature": "14d4eb1c8fd81458d233c38ca5254fdb821167bb12720bcd00969c1f45c24f4f"
+    },
+    "searchlab/treasure_generators.py": {
+      "before_sha256": "91071e6eb265db7b1e752b852478d1154a59c8c29d7bd3dc9158532f3dc74cab",
+      "after_sha256": "74a3bb25f263c528156ced6a62dd7b585129d6ab49eb03dc4132d9a55251c142",
+      "code_signature": "69ce52dc7cf0cdff1b13aadd01d70f60cf5fb5956099886bf33da173965f823f"
+    },
+    "searchlab/treasure_reference.py": {
+      "before_sha256": "cd9bd2d87b0f80bfe7634ffadf3d8cc82ab970fa8f6ca2d6d1289c26d53bd82d",
+      "after_sha256": "e18a920381297cf803c9d695263eb2ae3bba7b30133f9efc7c46aa8005ed556a",
+      "code_signature": "eda65f641f5a5257bfdec42ebadbe1017a5056e0dca1f52b2f462c9ea3aa4d9e"
+    },
+    "searchlab/tree.py": {
+      "before_sha256": "889beb2b4a472da1ff01361dc6b472de1d293ada96767b05aa6bc0e8262b311e",
+      "after_sha256": "f23ca46c87fcf3e4e4af8f24247142f0c6ee8c34a29f5a33357c2a69664b2dd5",
+      "code_signature": "a42cbcd1aeeedc327ee15a15c0d93d7df6718974799552e38be43af448a8c16b"
+    }
+  }
+}

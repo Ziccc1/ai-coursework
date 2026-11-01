@@ -1,0 +1,4 @@
+# 核心算法与 unittest 无第三方依赖；下列包仅用于汇总与 PNG 绘图。
+numpy>=2.0,<3
+pandas>=2.2,<3
+matplotlib>=3.9,<4

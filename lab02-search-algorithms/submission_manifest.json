@@ -1,0 +1,26 @@
+[
+  {
+    "question": 1,
+    "folder": "q1-maze",
+    "experiment_rows": 564,
+    "instances": 247
+  },
+  {
+    "question": 2,
+    "folder": "q2-weighted",
+    "experiment_rows": 464,
+    "instances": 89
+  },
+  {
+    "question": 3,
+    "folder": "q3-alpha-beta",
+    "experiment_rows": 1623,
+    "instances": 561
+  },
+  {
+    "question": 4,
+    "folder": "q4-treasure",
+    "experiment_rows": 1548,
+    "instances": 357
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "axis": "map_size",
+    "axis_value": 50,
+    "seed": 10,
+    "depth": 6,
+    "algorithm": "AB+Order+TT",
+    "scope": "Python allocations during a separate search; excludes existing map/matrix",
+    "current_bytes": 26076,
+    "peak_bytes": 28112,
+    "status": "ok",
+    "excluded_from_timing_comparison": true
+  },
+  {
+    "axis": "treasure_count",
+    "axis_value": 12,
+    "seed": 10,
+    "depth": 4,
+    "algorithm": "AB+Order+TT",
+    "scope": "Python allocations during a separate search; excludes existing map/matrix",
+    "current_bytes": 53940,
+    "peak_bytes": 55968,
+    "status": "ok",
+    "excluded_from_timing_comparison": true
+  },
+  {
+    "axis": "depth",
+    "axis_value": 8,
+    "seed": 10,
+    "depth": 8,
+    "algorithm": "AB+Order+TT",
+    "scope": "Python allocations during a separate search; excludes existing map/matrix",
+    "current_bytes": 365608,
+    "peak_bytes": 368000,
+    "status": "ok",
+    "excluded_from_timing_comparison": true
+  }
+]

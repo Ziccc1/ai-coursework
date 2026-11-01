@@ -1,0 +1,6703 @@
+[
+  {
+    "case": "teacher",
+    "target": "T3",
+    "value": 0,
+    "depth": 2,
+    "action_values": {
+      "T1": 1,
+      "T2": 1,
+      "T3": -9,
+      "T4": -2
+    },
+    "all_optimal_actions": [
+      "T1",
+      "T2"
+    ],
+    "best_value": 1,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T1",
+        "distance": 10,
+        "value": 9,
+        "gain": -1,
+        "score_a": -1,
+        "score_b": 0,
+        "utility": -1
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T2",
+        "distance": 8,
+        "value": 6,
+        "gain": -2,
+        "score_a": -1,
+        "score_b": -2,
+        "utility": 1
+      }
+    ]
+  },
+  {
+    "case": "teacher",
+    "target": "T3",
+    "value": 0,
+    "depth": 4,
+    "action_values": {
+      "T1": 2,
+      "T2": 8,
+      "T3": -4,
+      "T4": 0
+    },
+    "all_optimal_actions": [
+      "T2"
+    ],
+    "best_value": 8,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T2",
+        "distance": 4,
+        "value": 6,
+        "gain": 2,
+        "score_a": 2,
+        "score_b": 0,
+        "utility": 2
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 8,
+        "value": 9,
+        "gain": 1,
+        "score_a": 2,
+        "score_b": 1,
+        "utility": 1
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T2",
+        "target": "T4",
+        "distance": 6,
+        "value": 7,
+        "gain": 1,
+        "score_a": 3,
+        "score_b": 1,
+        "utility": 2
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T1",
+        "target": "T3",
+        "distance": 6,
+        "value": 0,
+        "gain": -6,
+        "score_a": 3,
+        "score_b": -5,
+        "utility": 8
+      }
+    ]
+  },
+  {
+    "case": "teacher",
+    "target": "T3",
+    "value": 1,
+    "depth": 2,
+    "action_values": {
+      "T1": 1,
+      "T2": 1,
+      "T3": -8,
+      "T4": -2
+    },
+    "all_optimal_actions": [
+      "T1",
+      "T2"
+    ],
+    "best_value": 1,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T1",
+        "distance": 10,
+        "value": 9,
+        "gain": -1,
+        "score_a": -1,
+        "score_b": 0,
+        "utility": -1
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T2",
+        "distance": 8,
+        "value": 6,
+        "gain": -2,
+        "score_a": -1,
+        "score_b": -2,
+        "utility": 1
+      }
+    ]
+  },
+  {
+    "case": "teacher",
+    "target": "T3",
+    "value": 1,
+    "depth": 4,
+    "action_values": {
+      "T1": 1,
+      "T2": 7,
+      "T3": -3,
+      "T4": -1
+    },
+    "all_optimal_actions": [
+      "T2"
+    ],
+    "best_value": 7,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T2",
+        "distance": 4,
+        "value": 6,
+        "gain": 2,
+        "score_a": 2,
+        "score_b": 0,
+        "utility": 2
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 8,
+        "value": 9,
+        "gain": 1,
+        "score_a": 2,
+        "score_b": 1,
+        "utility": 1
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T2",
+        "target": "T4",
+        "distance": 6,
+        "value": 7,
+        "gain": 1,
+        "score_a": 3,
+        "score_b": 1,
+        "utility": 2
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T1",
+        "target": "T3",
+        "distance": 6,
+        "value": 1,
+        "gain": -5,
+        "score_a": 3,
+        "score_b": -4,
+        "utility": 7
+      }
+    ]
+  },
+  {
+    "case": "teacher",
+    "target": "T3",
+    "value": 2,
+    "depth": 2,
+    "action_values": {
+      "T1": 1,
+      "T2": 1,
+      "T3": -7,
+      "T4": -2
+    },
+    "all_optimal_actions": [
+      "T1",
+      "T2"
+    ],
+    "best_value": 1,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T1",
+        "distance": 10,
+        "value": 9,
+        "gain": -1,
+        "score_a": -1,
+        "score_b": 0,
+        "utility": -1
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T2",
+        "distance": 8,
+        "value": 6,
+        "gain": -2,
+        "score_a": -1,
+        "score_b": -2,
+        "utility": 1
+      }
+    ]
+  },
+  {
+    "case": "teacher",
+    "target": "T3",
+    "value": 2,
+    "depth": 4,
+    "action_values": {
+      "T1": 0,
+      "T2": 6,
+      "T3": -2,
+      "T4": -2
+    },
+    "all_optimal_actions": [
+      "T2"
+    ],
+    "best_value": 6,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T2",
+        "distance": 4,
+        "value": 6,
+        "gain": 2,
+        "score_a": 2,
+        "score_b": 0,
+        "utility": 2
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 8,
+        "value": 9,
+        "gain": 1,
+        "score_a": 2,
+        "score_b": 1,
+        "utility": 1
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T2",
+        "target": "T4",
+        "distance": 6,
+        "value": 7,
+        "gain": 1,
+        "score_a": 3,
+        "score_b": 1,
+        "utility": 2
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T1",
+        "target": "T3",
+        "distance": 6,
+        "value": 2,
+        "gain": -4,
+        "score_a": 3,
+        "score_b": -3,
+        "utility": 6
+      }
+    ]
+  },
+  {
+    "case": "teacher",
+    "target": "T3",
+    "value": 3,
+    "depth": 2,
+    "action_values": {
+      "T1": 0,
+      "T2": 1,
+      "T3": -6,
+      "T4": -2
+    },
+    "all_optimal_actions": [
+      "T2"
+    ],
+    "best_value": 1,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T2",
+        "distance": 4,
+        "value": 6,
+        "gain": 2,
+        "score_a": 2,
+        "score_b": 0,
+        "utility": 2
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 8,
+        "value": 9,
+        "gain": 1,
+        "score_a": 2,
+        "score_b": 1,
+        "utility": 1
+      }
+    ]
+  },
+  {
+    "case": "teacher",
+    "target": "T3",
+    "value": 3,
+    "depth": 4,
+    "action_values": {
+      "T1": -1,
+      "T2": 5,
+      "T3": -1,
+      "T4": -3
+    },
+    "all_optimal_actions": [
+      "T2"
+    ],
+    "best_value": 5,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T2",
+        "distance": 4,
+        "value": 6,
+        "gain": 2,
+        "score_a": 2,
+        "score_b": 0,
+        "utility": 2
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 8,
+        "value": 9,
+        "gain": 1,
+        "score_a": 2,
+        "score_b": 1,
+        "utility": 1
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T2",
+        "target": "T4",
+        "distance": 6,
+        "value": 7,
+        "gain": 1,
+        "score_a": 3,
+        "score_b": 1,
+        "utility": 2
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T1",
+        "target": "T3",
+        "distance": 6,
+        "value": 3,
+        "gain": -3,
+        "score_a": 3,
+        "score_b": -2,
+        "utility": 5
+      }
+    ]
+  },
+  {
+    "case": "teacher",
+    "target": "T3",
+    "value": 4,
+    "depth": 2,
+    "action_values": {
+      "T1": -1,
+      "T2": 1,
+      "T3": -5,
+      "T4": -2
+    },
+    "all_optimal_actions": [
+      "T2"
+    ],
+    "best_value": 1,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T2",
+        "distance": 4,
+        "value": 6,
+        "gain": 2,
+        "score_a": 2,
+        "score_b": 0,
+        "utility": 2
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 8,
+        "value": 9,
+        "gain": 1,
+        "score_a": 2,
+        "score_b": 1,
+        "utility": 1
+      }
+    ]
+  },
+  {
+    "case": "teacher",
+    "target": "T3",
+    "value": 4,
+    "depth": 4,
+    "action_values": {
+      "T1": -2,
+      "T2": 4,
+      "T3": 0,
+      "T4": -4
+    },
+    "all_optimal_actions": [
+      "T2"
+    ],
+    "best_value": 4,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T2",
+        "distance": 4,
+        "value": 6,
+        "gain": 2,
+        "score_a": 2,
+        "score_b": 0,
+        "utility": 2
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 8,
+        "value": 9,
+        "gain": 1,
+        "score_a": 2,
+        "score_b": 1,
+        "utility": 1
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T2",
+        "target": "T3",
+        "distance": 6,
+        "value": 4,
+        "gain": -2,
+        "score_a": 0,
+        "score_b": 1,
+        "utility": -1
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T1",
+        "target": "T4",
+        "distance": 12,
+        "value": 7,
+        "gain": -5,
+        "score_a": 0,
+        "score_b": -4,
+        "utility": 4
+      }
+    ]
+  },
+  {
+    "case": "teacher",
+    "target": "T3",
+    "value": 5,
+    "depth": 2,
+    "action_values": {
+      "T1": -2,
+      "T2": 1,
+      "T3": -4,
+      "T4": -2
+    },
+    "all_optimal_actions": [
+      "T2"
+    ],
+    "best_value": 1,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T2",
+        "distance": 4,
+        "value": 6,
+        "gain": 2,
+        "score_a": 2,
+        "score_b": 0,
+        "utility": 2
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 8,
+        "value": 9,
+        "gain": 1,
+        "score_a": 2,
+        "score_b": 1,
+        "utility": 1
+      }
+    ]
+  },
+  {
+    "case": "teacher",
+    "target": "T3",
+    "value": 5,
+    "depth": 4,
+    "action_values": {
+      "T1": -3,
+      "T2": 3,
+      "T3": 1,
+      "T4": -5
+    },
+    "all_optimal_actions": [
+      "T2"
+    ],
+    "best_value": 3,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T2",
+        "distance": 4,
+        "value": 6,
+        "gain": 2,
+        "score_a": 2,
+        "score_b": 0,
+        "utility": 2
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 4,
+        "value": 5,
+        "gain": 1,
+        "score_a": 2,
+        "score_b": 1,
+        "utility": 1
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T2",
+        "target": "T1",
+        "distance": 6,
+        "value": 9,
+        "gain": 3,
+        "score_a": 5,
+        "score_b": 1,
+        "utility": 4
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T3",
+        "target": "T4",
+        "distance": 6,
+        "value": 7,
+        "gain": 1,
+        "score_a": 5,
+        "score_b": 2,
+        "utility": 3
+      }
+    ]
+  },
+  {
+    "case": "teacher",
+    "target": "T3",
+    "value": 6,
+    "depth": 2,
+    "action_values": {
+      "T1": -3,
+      "T2": 0,
+      "T3": -3,
+      "T4": -3
+    },
+    "all_optimal_actions": [
+      "T2"
+    ],
+    "best_value": 0,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T2",
+        "distance": 4,
+        "value": 6,
+        "gain": 2,
+        "score_a": 2,
+        "score_b": 0,
+        "utility": 2
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 4,
+        "value": 6,
+        "gain": 2,
+        "score_a": 2,
+        "score_b": 2,
+        "utility": 0
+      }
+    ]
+  },
+  {
+    "case": "teacher",
+    "target": "T3",
+    "value": 6,
+    "depth": 4,
+    "action_values": {
+      "T1": -4,
+      "T2": 2,
+      "T3": 2,
+      "T4": -6
+    },
+    "all_optimal_actions": [
+      "T2",
+      "T3"
+    ],
+    "best_value": 2,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T2",
+        "distance": 4,
+        "value": 6,
+        "gain": 2,
+        "score_a": 2,
+        "score_b": 0,
+        "utility": 2
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 4,
+        "value": 6,
+        "gain": 2,
+        "score_a": 2,
+        "score_b": 2,
+        "utility": 0
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T2",
+        "target": "T1",
+        "distance": 6,
+        "value": 9,
+        "gain": 3,
+        "score_a": 5,
+        "score_b": 2,
+        "utility": 3
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T3",
+        "target": "T4",
+        "distance": 6,
+        "value": 7,
+        "gain": 1,
+        "score_a": 5,
+        "score_b": 3,
+        "utility": 2
+      }
+    ]
+  },
+  {
+    "case": "teacher",
+    "target": "T3",
+    "value": 7,
+    "depth": 2,
+    "action_values": {
+      "T1": -4,
+      "T2": -1,
+      "T3": -2,
+      "T4": -4
+    },
+    "all_optimal_actions": [
+      "T2"
+    ],
+    "best_value": -1,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T2",
+        "distance": 4,
+        "value": 6,
+        "gain": 2,
+        "score_a": 2,
+        "score_b": 0,
+        "utility": 2
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 4,
+        "value": 7,
+        "gain": 3,
+        "score_a": 2,
+        "score_b": 3,
+        "utility": -1
+      }
+    ]
+  },
+  {
+    "case": "teacher",
+    "target": "T3",
+    "value": 7,
+    "depth": 4,
+    "action_values": {
+      "T1": -5,
+      "T2": 1,
+      "T3": 3,
+      "T4": -7
+    },
+    "all_optimal_actions": [
+      "T3"
+    ],
+    "best_value": 3,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T3",
+        "distance": 8,
+        "value": 7,
+        "gain": -1,
+        "score_a": -1,
+        "score_b": 0,
+        "utility": -1
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 8,
+        "value": 9,
+        "gain": 1,
+        "score_a": -1,
+        "score_b": 1,
+        "utility": -2
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T3",
+        "target": "T2",
+        "distance": 6,
+        "value": 6,
+        "gain": 0,
+        "score_a": -1,
+        "score_b": 1,
+        "utility": -2
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T1",
+        "target": "T4",
+        "distance": 12,
+        "value": 7,
+        "gain": -5,
+        "score_a": -1,
+        "score_b": -4,
+        "utility": 3
+      }
+    ]
+  },
+  {
+    "case": "teacher",
+    "target": "T3",
+    "value": 8,
+    "depth": 2,
+    "action_values": {
+      "T1": -5,
+      "T2": -2,
+      "T3": -1,
+      "T4": -5
+    },
+    "all_optimal_actions": [
+      "T3"
+    ],
+    "best_value": -1,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T3",
+        "distance": 8,
+        "value": 8,
+        "gain": 0,
+        "score_a": 0,
+        "score_b": 0,
+        "utility": 0
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 8,
+        "value": 9,
+        "gain": 1,
+        "score_a": 0,
+        "score_b": 1,
+        "utility": -1
+      }
+    ]
+  },
+  {
+    "case": "teacher",
+    "target": "T3",
+    "value": 8,
+    "depth": 4,
+    "action_values": {
+      "T1": -6,
+      "T2": 0,
+      "T3": 4,
+      "T4": -8
+    },
+    "all_optimal_actions": [
+      "T3"
+    ],
+    "best_value": 4,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T3",
+        "distance": 8,
+        "value": 8,
+        "gain": 0,
+        "score_a": 0,
+        "score_b": 0,
+        "utility": 0
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 8,
+        "value": 9,
+        "gain": 1,
+        "score_a": 0,
+        "score_b": 1,
+        "utility": -1
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T3",
+        "target": "T2",
+        "distance": 6,
+        "value": 6,
+        "gain": 0,
+        "score_a": 0,
+        "score_b": 1,
+        "utility": -1
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T1",
+        "target": "T4",
+        "distance": 12,
+        "value": 7,
+        "gain": -5,
+        "score_a": 0,
+        "score_b": -4,
+        "utility": 4
+      }
+    ]
+  },
+  {
+    "case": "teacher",
+    "target": "T3",
+    "value": 9,
+    "depth": 2,
+    "action_values": {
+      "T1": -6,
+      "T2": -3,
+      "T3": 0,
+      "T4": -6
+    },
+    "all_optimal_actions": [
+      "T3"
+    ],
+    "best_value": 0,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T3",
+        "distance": 8,
+        "value": 9,
+        "gain": 1,
+        "score_a": 1,
+        "score_b": 0,
+        "utility": 1
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 8,
+        "value": 9,
+        "gain": 1,
+        "score_a": 1,
+        "score_b": 1,
+        "utility": 0
+      }
+    ]
+  },
+  {
+    "case": "teacher",
+    "target": "T3",
+    "value": 9,
+    "depth": 4,
+    "action_values": {
+      "T1": -7,
+      "T2": -1,
+      "T3": 5,
+      "T4": -9
+    },
+    "all_optimal_actions": [
+      "T3"
+    ],
+    "best_value": 5,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T3",
+        "distance": 8,
+        "value": 9,
+        "gain": 1,
+        "score_a": 1,
+        "score_b": 0,
+        "utility": 1
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 8,
+        "value": 9,
+        "gain": 1,
+        "score_a": 1,
+        "score_b": 1,
+        "utility": 0
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T3",
+        "target": "T2",
+        "distance": 6,
+        "value": 6,
+        "gain": 0,
+        "score_a": 1,
+        "score_b": 1,
+        "utility": 0
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T1",
+        "target": "T4",
+        "distance": 12,
+        "value": 7,
+        "gain": -5,
+        "score_a": 1,
+        "score_b": -4,
+        "utility": 5
+      }
+    ]
+  },
+  {
+    "case": "teacher",
+    "target": "T3",
+    "value": 10,
+    "depth": 2,
+    "action_values": {
+      "T1": -7,
+      "T2": -4,
+      "T3": 1,
+      "T4": -7
+    },
+    "all_optimal_actions": [
+      "T3"
+    ],
+    "best_value": 1,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T3",
+        "distance": 8,
+        "value": 10,
+        "gain": 2,
+        "score_a": 2,
+        "score_b": 0,
+        "utility": 2
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 8,
+        "value": 9,
+        "gain": 1,
+        "score_a": 2,
+        "score_b": 1,
+        "utility": 1
+      }
+    ]
+  },
+  {
+    "case": "teacher",
+    "target": "T3",
+    "value": 10,
+    "depth": 4,
+    "action_values": {
+      "T1": -8,
+      "T2": -2,
+      "T3": 6,
+      "T4": -10
+    },
+    "all_optimal_actions": [
+      "T3"
+    ],
+    "best_value": 6,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T3",
+        "distance": 8,
+        "value": 10,
+        "gain": 2,
+        "score_a": 2,
+        "score_b": 0,
+        "utility": 2
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 8,
+        "value": 9,
+        "gain": 1,
+        "score_a": 2,
+        "score_b": 1,
+        "utility": 1
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T3",
+        "target": "T2",
+        "distance": 6,
+        "value": 6,
+        "gain": 0,
+        "score_a": 2,
+        "score_b": 1,
+        "utility": 1
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T1",
+        "target": "T4",
+        "distance": 12,
+        "value": 7,
+        "gain": -5,
+        "score_a": 2,
+        "score_b": -4,
+        "utility": 6
+      }
+    ]
+  },
+  {
+    "case": "teacher",
+    "target": "T3",
+    "value": 11,
+    "depth": 2,
+    "action_values": {
+      "T1": -8,
+      "T2": -5,
+      "T3": 2,
+      "T4": -8
+    },
+    "all_optimal_actions": [
+      "T3"
+    ],
+    "best_value": 2,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T3",
+        "distance": 8,
+        "value": 11,
+        "gain": 3,
+        "score_a": 3,
+        "score_b": 0,
+        "utility": 3
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 8,
+        "value": 9,
+        "gain": 1,
+        "score_a": 3,
+        "score_b": 1,
+        "utility": 2
+      }
+    ]
+  },
+  {
+    "case": "teacher",
+    "target": "T3",
+    "value": 11,
+    "depth": 4,
+    "action_values": {
+      "T1": -9,
+      "T2": -3,
+      "T3": 7,
+      "T4": -11
+    },
+    "all_optimal_actions": [
+      "T3"
+    ],
+    "best_value": 7,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T3",
+        "distance": 8,
+        "value": 11,
+        "gain": 3,
+        "score_a": 3,
+        "score_b": 0,
+        "utility": 3
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 8,
+        "value": 9,
+        "gain": 1,
+        "score_a": 3,
+        "score_b": 1,
+        "utility": 2
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T3",
+        "target": "T2",
+        "distance": 6,
+        "value": 6,
+        "gain": 0,
+        "score_a": 3,
+        "score_b": 1,
+        "utility": 2
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T1",
+        "target": "T4",
+        "distance": 12,
+        "value": 7,
+        "gain": -5,
+        "score_a": 3,
+        "score_b": -4,
+        "utility": 7
+      }
+    ]
+  },
+  {
+    "case": "teacher",
+    "target": "T3",
+    "value": 12,
+    "depth": 2,
+    "action_values": {
+      "T1": -9,
+      "T2": -6,
+      "T3": 3,
+      "T4": -9
+    },
+    "all_optimal_actions": [
+      "T3"
+    ],
+    "best_value": 3,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T3",
+        "distance": 8,
+        "value": 12,
+        "gain": 4,
+        "score_a": 4,
+        "score_b": 0,
+        "utility": 4
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 8,
+        "value": 9,
+        "gain": 1,
+        "score_a": 4,
+        "score_b": 1,
+        "utility": 3
+      }
+    ]
+  },
+  {
+    "case": "teacher",
+    "target": "T3",
+    "value": 12,
+    "depth": 4,
+    "action_values": {
+      "T1": -10,
+      "T2": -4,
+      "T3": 8,
+      "T4": -12
+    },
+    "all_optimal_actions": [
+      "T3"
+    ],
+    "best_value": 8,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T3",
+        "distance": 8,
+        "value": 12,
+        "gain": 4,
+        "score_a": 4,
+        "score_b": 0,
+        "utility": 4
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 8,
+        "value": 9,
+        "gain": 1,
+        "score_a": 4,
+        "score_b": 1,
+        "utility": 3
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T3",
+        "target": "T2",
+        "distance": 6,
+        "value": 6,
+        "gain": 0,
+        "score_a": 4,
+        "score_b": 1,
+        "utility": 3
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T1",
+        "target": "T4",
+        "distance": 12,
+        "value": 7,
+        "gain": -5,
+        "score_a": 4,
+        "score_b": -4,
+        "utility": 8
+      }
+    ]
+  },
+  {
+    "case": "teacher",
+    "target": "T3",
+    "value": 13,
+    "depth": 2,
+    "action_values": {
+      "T1": -10,
+      "T2": -7,
+      "T3": 4,
+      "T4": -10
+    },
+    "all_optimal_actions": [
+      "T3"
+    ],
+    "best_value": 4,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T3",
+        "distance": 8,
+        "value": 13,
+        "gain": 5,
+        "score_a": 5,
+        "score_b": 0,
+        "utility": 5
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 8,
+        "value": 9,
+        "gain": 1,
+        "score_a": 5,
+        "score_b": 1,
+        "utility": 4
+      }
+    ]
+  },
+  {
+    "case": "teacher",
+    "target": "T3",
+    "value": 13,
+    "depth": 4,
+    "action_values": {
+      "T1": -11,
+      "T2": -5,
+      "T3": 9,
+      "T4": -13
+    },
+    "all_optimal_actions": [
+      "T3"
+    ],
+    "best_value": 9,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T3",
+        "distance": 8,
+        "value": 13,
+        "gain": 5,
+        "score_a": 5,
+        "score_b": 0,
+        "utility": 5
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 8,
+        "value": 9,
+        "gain": 1,
+        "score_a": 5,
+        "score_b": 1,
+        "utility": 4
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T3",
+        "target": "T2",
+        "distance": 6,
+        "value": 6,
+        "gain": 0,
+        "score_a": 5,
+        "score_b": 1,
+        "utility": 4
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T1",
+        "target": "T4",
+        "distance": 12,
+        "value": 7,
+        "gain": -5,
+        "score_a": 5,
+        "score_b": -4,
+        "utility": 9
+      }
+    ]
+  },
+  {
+    "case": "teacher",
+    "target": "T3",
+    "value": 14,
+    "depth": 2,
+    "action_values": {
+      "T1": -11,
+      "T2": -8,
+      "T3": 5,
+      "T4": -11
+    },
+    "all_optimal_actions": [
+      "T3"
+    ],
+    "best_value": 5,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T3",
+        "distance": 8,
+        "value": 14,
+        "gain": 6,
+        "score_a": 6,
+        "score_b": 0,
+        "utility": 6
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 8,
+        "value": 9,
+        "gain": 1,
+        "score_a": 6,
+        "score_b": 1,
+        "utility": 5
+      }
+    ]
+  },
+  {
+    "case": "teacher",
+    "target": "T3",
+    "value": 14,
+    "depth": 4,
+    "action_values": {
+      "T1": -12,
+      "T2": -6,
+      "T3": 10,
+      "T4": -14
+    },
+    "all_optimal_actions": [
+      "T3"
+    ],
+    "best_value": 10,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T3",
+        "distance": 8,
+        "value": 14,
+        "gain": 6,
+        "score_a": 6,
+        "score_b": 0,
+        "utility": 6
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 8,
+        "value": 9,
+        "gain": 1,
+        "score_a": 6,
+        "score_b": 1,
+        "utility": 5
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T3",
+        "target": "T2",
+        "distance": 6,
+        "value": 6,
+        "gain": 0,
+        "score_a": 6,
+        "score_b": 1,
+        "utility": 5
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T1",
+        "target": "T4",
+        "distance": 12,
+        "value": 7,
+        "gain": -5,
+        "score_a": 6,
+        "score_b": -4,
+        "utility": 10
+      }
+    ]
+  },
+  {
+    "case": "teacher",
+    "target": "T3",
+    "value": 15,
+    "depth": 2,
+    "action_values": {
+      "T1": -12,
+      "T2": -9,
+      "T3": 6,
+      "T4": -12
+    },
+    "all_optimal_actions": [
+      "T3"
+    ],
+    "best_value": 6,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T3",
+        "distance": 8,
+        "value": 15,
+        "gain": 7,
+        "score_a": 7,
+        "score_b": 0,
+        "utility": 7
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 8,
+        "value": 9,
+        "gain": 1,
+        "score_a": 7,
+        "score_b": 1,
+        "utility": 6
+      }
+    ]
+  },
+  {
+    "case": "teacher",
+    "target": "T3",
+    "value": 15,
+    "depth": 4,
+    "action_values": {
+      "T1": -13,
+      "T2": -7,
+      "T3": 11,
+      "T4": -15
+    },
+    "all_optimal_actions": [
+      "T3"
+    ],
+    "best_value": 11,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T3",
+        "distance": 8,
+        "value": 15,
+        "gain": 7,
+        "score_a": 7,
+        "score_b": 0,
+        "utility": 7
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 8,
+        "value": 9,
+        "gain": 1,
+        "score_a": 7,
+        "score_b": 1,
+        "utility": 6
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T3",
+        "target": "T2",
+        "distance": 6,
+        "value": 6,
+        "gain": 0,
+        "score_a": 7,
+        "score_b": 1,
+        "utility": 6
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T1",
+        "target": "T4",
+        "distance": 12,
+        "value": 7,
+        "gain": -5,
+        "score_a": 7,
+        "score_b": -4,
+        "utility": 11
+      }
+    ]
+  },
+  {
+    "case": "teacher",
+    "target": "T3",
+    "value": 16,
+    "depth": 2,
+    "action_values": {
+      "T1": -13,
+      "T2": -10,
+      "T3": 7,
+      "T4": -13
+    },
+    "all_optimal_actions": [
+      "T3"
+    ],
+    "best_value": 7,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T3",
+        "distance": 8,
+        "value": 16,
+        "gain": 8,
+        "score_a": 8,
+        "score_b": 0,
+        "utility": 8
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 8,
+        "value": 9,
+        "gain": 1,
+        "score_a": 8,
+        "score_b": 1,
+        "utility": 7
+      }
+    ]
+  },
+  {
+    "case": "teacher",
+    "target": "T3",
+    "value": 16,
+    "depth": 4,
+    "action_values": {
+      "T1": -14,
+      "T2": -8,
+      "T3": 12,
+      "T4": -16
+    },
+    "all_optimal_actions": [
+      "T3"
+    ],
+    "best_value": 12,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T3",
+        "distance": 8,
+        "value": 16,
+        "gain": 8,
+        "score_a": 8,
+        "score_b": 0,
+        "utility": 8
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 8,
+        "value": 9,
+        "gain": 1,
+        "score_a": 8,
+        "score_b": 1,
+        "utility": 7
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T3",
+        "target": "T2",
+        "distance": 6,
+        "value": 6,
+        "gain": 0,
+        "score_a": 8,
+        "score_b": 1,
+        "utility": 7
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T1",
+        "target": "T4",
+        "distance": 12,
+        "value": 7,
+        "gain": -5,
+        "score_a": 8,
+        "score_b": -4,
+        "utility": 12
+      }
+    ]
+  },
+  {
+    "case": "teacher",
+    "target": "T3",
+    "value": 17,
+    "depth": 2,
+    "action_values": {
+      "T1": -14,
+      "T2": -11,
+      "T3": 8,
+      "T4": -14
+    },
+    "all_optimal_actions": [
+      "T3"
+    ],
+    "best_value": 8,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T3",
+        "distance": 8,
+        "value": 17,
+        "gain": 9,
+        "score_a": 9,
+        "score_b": 0,
+        "utility": 9
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 8,
+        "value": 9,
+        "gain": 1,
+        "score_a": 9,
+        "score_b": 1,
+        "utility": 8
+      }
+    ]
+  },
+  {
+    "case": "teacher",
+    "target": "T3",
+    "value": 17,
+    "depth": 4,
+    "action_values": {
+      "T1": -15,
+      "T2": -9,
+      "T3": 13,
+      "T4": -17
+    },
+    "all_optimal_actions": [
+      "T3"
+    ],
+    "best_value": 13,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T3",
+        "distance": 8,
+        "value": 17,
+        "gain": 9,
+        "score_a": 9,
+        "score_b": 0,
+        "utility": 9
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 8,
+        "value": 9,
+        "gain": 1,
+        "score_a": 9,
+        "score_b": 1,
+        "utility": 8
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T3",
+        "target": "T2",
+        "distance": 6,
+        "value": 6,
+        "gain": 0,
+        "score_a": 9,
+        "score_b": 1,
+        "utility": 8
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T1",
+        "target": "T4",
+        "distance": 12,
+        "value": 7,
+        "gain": -5,
+        "score_a": 9,
+        "score_b": -4,
+        "utility": 13
+      }
+    ]
+  },
+  {
+    "case": "teacher",
+    "target": "T3",
+    "value": 18,
+    "depth": 2,
+    "action_values": {
+      "T1": -15,
+      "T2": -12,
+      "T3": 9,
+      "T4": -15
+    },
+    "all_optimal_actions": [
+      "T3"
+    ],
+    "best_value": 9,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T3",
+        "distance": 8,
+        "value": 18,
+        "gain": 10,
+        "score_a": 10,
+        "score_b": 0,
+        "utility": 10
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 8,
+        "value": 9,
+        "gain": 1,
+        "score_a": 10,
+        "score_b": 1,
+        "utility": 9
+      }
+    ]
+  },
+  {
+    "case": "teacher",
+    "target": "T3",
+    "value": 18,
+    "depth": 4,
+    "action_values": {
+      "T1": -16,
+      "T2": -10,
+      "T3": 14,
+      "T4": -18
+    },
+    "all_optimal_actions": [
+      "T3"
+    ],
+    "best_value": 14,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T3",
+        "distance": 8,
+        "value": 18,
+        "gain": 10,
+        "score_a": 10,
+        "score_b": 0,
+        "utility": 10
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 8,
+        "value": 9,
+        "gain": 1,
+        "score_a": 10,
+        "score_b": 1,
+        "utility": 9
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T3",
+        "target": "T2",
+        "distance": 6,
+        "value": 6,
+        "gain": 0,
+        "score_a": 10,
+        "score_b": 1,
+        "utility": 9
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T1",
+        "target": "T4",
+        "distance": 12,
+        "value": 7,
+        "gain": -5,
+        "score_a": 10,
+        "score_b": -4,
+        "utility": 14
+      }
+    ]
+  },
+  {
+    "case": "teacher",
+    "target": "T3",
+    "value": 19,
+    "depth": 2,
+    "action_values": {
+      "T1": -16,
+      "T2": -13,
+      "T3": 10,
+      "T4": -16
+    },
+    "all_optimal_actions": [
+      "T3"
+    ],
+    "best_value": 10,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T3",
+        "distance": 8,
+        "value": 19,
+        "gain": 11,
+        "score_a": 11,
+        "score_b": 0,
+        "utility": 11
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 8,
+        "value": 9,
+        "gain": 1,
+        "score_a": 11,
+        "score_b": 1,
+        "utility": 10
+      }
+    ]
+  },
+  {
+    "case": "teacher",
+    "target": "T3",
+    "value": 19,
+    "depth": 4,
+    "action_values": {
+      "T1": -17,
+      "T2": -11,
+      "T3": 15,
+      "T4": -19
+    },
+    "all_optimal_actions": [
+      "T3"
+    ],
+    "best_value": 15,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T3",
+        "distance": 8,
+        "value": 19,
+        "gain": 11,
+        "score_a": 11,
+        "score_b": 0,
+        "utility": 11
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 8,
+        "value": 9,
+        "gain": 1,
+        "score_a": 11,
+        "score_b": 1,
+        "utility": 10
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T3",
+        "target": "T2",
+        "distance": 6,
+        "value": 6,
+        "gain": 0,
+        "score_a": 11,
+        "score_b": 1,
+        "utility": 10
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T1",
+        "target": "T4",
+        "distance": 12,
+        "value": 7,
+        "gain": -5,
+        "score_a": 11,
+        "score_b": -4,
+        "utility": 15
+      }
+    ]
+  },
+  {
+    "case": "teacher",
+    "target": "T3",
+    "value": 20,
+    "depth": 2,
+    "action_values": {
+      "T1": -17,
+      "T2": -14,
+      "T3": 11,
+      "T4": -17
+    },
+    "all_optimal_actions": [
+      "T3"
+    ],
+    "best_value": 11,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T3",
+        "distance": 8,
+        "value": 20,
+        "gain": 12,
+        "score_a": 12,
+        "score_b": 0,
+        "utility": 12
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 8,
+        "value": 9,
+        "gain": 1,
+        "score_a": 12,
+        "score_b": 1,
+        "utility": 11
+      }
+    ]
+  },
+  {
+    "case": "teacher",
+    "target": "T3",
+    "value": 20,
+    "depth": 4,
+    "action_values": {
+      "T1": -18,
+      "T2": -12,
+      "T3": 16,
+      "T4": -20
+    },
+    "all_optimal_actions": [
+      "T3"
+    ],
+    "best_value": 16,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T3",
+        "distance": 8,
+        "value": 20,
+        "gain": 12,
+        "score_a": 12,
+        "score_b": 0,
+        "utility": 12
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 8,
+        "value": 9,
+        "gain": 1,
+        "score_a": 12,
+        "score_b": 1,
+        "utility": 11
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T3",
+        "target": "T2",
+        "distance": 6,
+        "value": 6,
+        "gain": 0,
+        "score_a": 12,
+        "score_b": 1,
+        "utility": 11
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T1",
+        "target": "T4",
+        "distance": 12,
+        "value": 7,
+        "gain": -5,
+        "score_a": 12,
+        "score_b": -4,
+        "utility": 16
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 0,
+    "depth": 2,
+    "action_values": {
+      "T1": 5,
+      "T2": -18,
+      "T3": -5,
+      "T4": -11
+    },
+    "all_optimal_actions": [
+      "T1"
+    ],
+    "best_value": 5,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T1",
+        "distance": 1,
+        "value": 19,
+        "gain": 18,
+        "score_a": 18,
+        "score_b": 0,
+        "utility": 18
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 8,
+        "value": 21,
+        "gain": 13,
+        "score_a": 18,
+        "score_b": 13,
+        "utility": 5
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 0,
+    "depth": 4,
+    "action_values": {
+      "T1": 17,
+      "T2": -8,
+      "T3": 3,
+      "T4": 7
+    },
+    "all_optimal_actions": [
+      "T1"
+    ],
+    "best_value": 17,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T1",
+        "distance": 1,
+        "value": 19,
+        "gain": 18,
+        "score_a": 18,
+        "score_b": 0,
+        "utility": 18
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 8,
+        "value": 21,
+        "gain": 13,
+        "score_a": 18,
+        "score_b": 13,
+        "utility": 5
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T1",
+        "target": "T4",
+        "distance": 7,
+        "value": 10,
+        "gain": 3,
+        "score_a": 21,
+        "score_b": 13,
+        "utility": 8
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T3",
+        "target": "T2",
+        "distance": 9,
+        "value": 0,
+        "gain": -9,
+        "score_a": 21,
+        "score_b": 4,
+        "utility": 17
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 1,
+    "depth": 2,
+    "action_values": {
+      "T1": 5,
+      "T2": -17,
+      "T3": -5,
+      "T4": -11
+    },
+    "all_optimal_actions": [
+      "T1"
+    ],
+    "best_value": 5,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T1",
+        "distance": 1,
+        "value": 19,
+        "gain": 18,
+        "score_a": 18,
+        "score_b": 0,
+        "utility": 18
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 8,
+        "value": 21,
+        "gain": 13,
+        "score_a": 18,
+        "score_b": 13,
+        "utility": 5
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 1,
+    "depth": 4,
+    "action_values": {
+      "T1": 16,
+      "T2": -7,
+      "T3": 2,
+      "T4": 6
+    },
+    "all_optimal_actions": [
+      "T1"
+    ],
+    "best_value": 16,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T1",
+        "distance": 1,
+        "value": 19,
+        "gain": 18,
+        "score_a": 18,
+        "score_b": 0,
+        "utility": 18
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 8,
+        "value": 21,
+        "gain": 13,
+        "score_a": 18,
+        "score_b": 13,
+        "utility": 5
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T1",
+        "target": "T4",
+        "distance": 7,
+        "value": 10,
+        "gain": 3,
+        "score_a": 21,
+        "score_b": 13,
+        "utility": 8
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T3",
+        "target": "T2",
+        "distance": 9,
+        "value": 1,
+        "gain": -8,
+        "score_a": 21,
+        "score_b": 5,
+        "utility": 16
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 2,
+    "depth": 2,
+    "action_values": {
+      "T1": 5,
+      "T2": -16,
+      "T3": -5,
+      "T4": -11
+    },
+    "all_optimal_actions": [
+      "T1"
+    ],
+    "best_value": 5,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T1",
+        "distance": 1,
+        "value": 19,
+        "gain": 18,
+        "score_a": 18,
+        "score_b": 0,
+        "utility": 18
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 8,
+        "value": 21,
+        "gain": 13,
+        "score_a": 18,
+        "score_b": 13,
+        "utility": 5
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 2,
+    "depth": 4,
+    "action_values": {
+      "T1": 15,
+      "T2": -6,
+      "T3": 1,
+      "T4": 5
+    },
+    "all_optimal_actions": [
+      "T1"
+    ],
+    "best_value": 15,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T1",
+        "distance": 1,
+        "value": 19,
+        "gain": 18,
+        "score_a": 18,
+        "score_b": 0,
+        "utility": 18
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 8,
+        "value": 21,
+        "gain": 13,
+        "score_a": 18,
+        "score_b": 13,
+        "utility": 5
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T1",
+        "target": "T4",
+        "distance": 7,
+        "value": 10,
+        "gain": 3,
+        "score_a": 21,
+        "score_b": 13,
+        "utility": 8
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T3",
+        "target": "T2",
+        "distance": 9,
+        "value": 2,
+        "gain": -7,
+        "score_a": 21,
+        "score_b": 6,
+        "utility": 15
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 3,
+    "depth": 2,
+    "action_values": {
+      "T1": 5,
+      "T2": -15,
+      "T3": -5,
+      "T4": -11
+    },
+    "all_optimal_actions": [
+      "T1"
+    ],
+    "best_value": 5,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T1",
+        "distance": 1,
+        "value": 19,
+        "gain": 18,
+        "score_a": 18,
+        "score_b": 0,
+        "utility": 18
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 8,
+        "value": 21,
+        "gain": 13,
+        "score_a": 18,
+        "score_b": 13,
+        "utility": 5
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 3,
+    "depth": 4,
+    "action_values": {
+      "T1": 14,
+      "T2": -5,
+      "T3": 0,
+      "T4": 4
+    },
+    "all_optimal_actions": [
+      "T1"
+    ],
+    "best_value": 14,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T1",
+        "distance": 1,
+        "value": 19,
+        "gain": 18,
+        "score_a": 18,
+        "score_b": 0,
+        "utility": 18
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 8,
+        "value": 21,
+        "gain": 13,
+        "score_a": 18,
+        "score_b": 13,
+        "utility": 5
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T1",
+        "target": "T4",
+        "distance": 7,
+        "value": 10,
+        "gain": 3,
+        "score_a": 21,
+        "score_b": 13,
+        "utility": 8
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T3",
+        "target": "T2",
+        "distance": 9,
+        "value": 3,
+        "gain": -6,
+        "score_a": 21,
+        "score_b": 7,
+        "utility": 14
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 4,
+    "depth": 2,
+    "action_values": {
+      "T1": 5,
+      "T2": -14,
+      "T3": -5,
+      "T4": -11
+    },
+    "all_optimal_actions": [
+      "T1"
+    ],
+    "best_value": 5,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T1",
+        "distance": 1,
+        "value": 19,
+        "gain": 18,
+        "score_a": 18,
+        "score_b": 0,
+        "utility": 18
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 8,
+        "value": 21,
+        "gain": 13,
+        "score_a": 18,
+        "score_b": 13,
+        "utility": 5
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 4,
+    "depth": 4,
+    "action_values": {
+      "T1": 13,
+      "T2": -4,
+      "T3": -1,
+      "T4": 3
+    },
+    "all_optimal_actions": [
+      "T1"
+    ],
+    "best_value": 13,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T1",
+        "distance": 1,
+        "value": 19,
+        "gain": 18,
+        "score_a": 18,
+        "score_b": 0,
+        "utility": 18
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 8,
+        "value": 21,
+        "gain": 13,
+        "score_a": 18,
+        "score_b": 13,
+        "utility": 5
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T1",
+        "target": "T4",
+        "distance": 7,
+        "value": 10,
+        "gain": 3,
+        "score_a": 21,
+        "score_b": 13,
+        "utility": 8
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T3",
+        "target": "T2",
+        "distance": 9,
+        "value": 4,
+        "gain": -5,
+        "score_a": 21,
+        "score_b": 8,
+        "utility": 13
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 5,
+    "depth": 2,
+    "action_values": {
+      "T1": 5,
+      "T2": -13,
+      "T3": -5,
+      "T4": -11
+    },
+    "all_optimal_actions": [
+      "T1"
+    ],
+    "best_value": 5,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T1",
+        "distance": 1,
+        "value": 19,
+        "gain": 18,
+        "score_a": 18,
+        "score_b": 0,
+        "utility": 18
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 8,
+        "value": 21,
+        "gain": 13,
+        "score_a": 18,
+        "score_b": 13,
+        "utility": 5
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 5,
+    "depth": 4,
+    "action_values": {
+      "T1": 12,
+      "T2": -3,
+      "T3": -2,
+      "T4": 2
+    },
+    "all_optimal_actions": [
+      "T1"
+    ],
+    "best_value": 12,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T1",
+        "distance": 1,
+        "value": 19,
+        "gain": 18,
+        "score_a": 18,
+        "score_b": 0,
+        "utility": 18
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 8,
+        "value": 21,
+        "gain": 13,
+        "score_a": 18,
+        "score_b": 13,
+        "utility": 5
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T1",
+        "target": "T4",
+        "distance": 7,
+        "value": 10,
+        "gain": 3,
+        "score_a": 21,
+        "score_b": 13,
+        "utility": 8
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T3",
+        "target": "T2",
+        "distance": 9,
+        "value": 5,
+        "gain": -4,
+        "score_a": 21,
+        "score_b": 9,
+        "utility": 12
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 6,
+    "depth": 2,
+    "action_values": {
+      "T1": 5,
+      "T2": -12,
+      "T3": -5,
+      "T4": -11
+    },
+    "all_optimal_actions": [
+      "T1"
+    ],
+    "best_value": 5,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T1",
+        "distance": 1,
+        "value": 19,
+        "gain": 18,
+        "score_a": 18,
+        "score_b": 0,
+        "utility": 18
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 8,
+        "value": 21,
+        "gain": 13,
+        "score_a": 18,
+        "score_b": 13,
+        "utility": 5
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 6,
+    "depth": 4,
+    "action_values": {
+      "T1": 11,
+      "T2": -2,
+      "T3": -3,
+      "T4": 1
+    },
+    "all_optimal_actions": [
+      "T1"
+    ],
+    "best_value": 11,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T1",
+        "distance": 1,
+        "value": 19,
+        "gain": 18,
+        "score_a": 18,
+        "score_b": 0,
+        "utility": 18
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 8,
+        "value": 21,
+        "gain": 13,
+        "score_a": 18,
+        "score_b": 13,
+        "utility": 5
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T1",
+        "target": "T4",
+        "distance": 7,
+        "value": 10,
+        "gain": 3,
+        "score_a": 21,
+        "score_b": 13,
+        "utility": 8
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T3",
+        "target": "T2",
+        "distance": 9,
+        "value": 6,
+        "gain": -3,
+        "score_a": 21,
+        "score_b": 10,
+        "utility": 11
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 7,
+    "depth": 2,
+    "action_values": {
+      "T1": 5,
+      "T2": -11,
+      "T3": -5,
+      "T4": -11
+    },
+    "all_optimal_actions": [
+      "T1"
+    ],
+    "best_value": 5,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T1",
+        "distance": 1,
+        "value": 19,
+        "gain": 18,
+        "score_a": 18,
+        "score_b": 0,
+        "utility": 18
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 8,
+        "value": 21,
+        "gain": 13,
+        "score_a": 18,
+        "score_b": 13,
+        "utility": 5
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 7,
+    "depth": 4,
+    "action_values": {
+      "T1": 10,
+      "T2": -1,
+      "T3": -4,
+      "T4": 0
+    },
+    "all_optimal_actions": [
+      "T1"
+    ],
+    "best_value": 10,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T1",
+        "distance": 1,
+        "value": 19,
+        "gain": 18,
+        "score_a": 18,
+        "score_b": 0,
+        "utility": 18
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 8,
+        "value": 21,
+        "gain": 13,
+        "score_a": 18,
+        "score_b": 13,
+        "utility": 5
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T1",
+        "target": "T4",
+        "distance": 7,
+        "value": 10,
+        "gain": 3,
+        "score_a": 21,
+        "score_b": 13,
+        "utility": 8
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T3",
+        "target": "T2",
+        "distance": 9,
+        "value": 7,
+        "gain": -2,
+        "score_a": 21,
+        "score_b": 11,
+        "utility": 10
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 8,
+    "depth": 2,
+    "action_values": {
+      "T1": 5,
+      "T2": -10,
+      "T3": -5,
+      "T4": -11
+    },
+    "all_optimal_actions": [
+      "T1"
+    ],
+    "best_value": 5,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T1",
+        "distance": 1,
+        "value": 19,
+        "gain": 18,
+        "score_a": 18,
+        "score_b": 0,
+        "utility": 18
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 8,
+        "value": 21,
+        "gain": 13,
+        "score_a": 18,
+        "score_b": 13,
+        "utility": 5
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 8,
+    "depth": 4,
+    "action_values": {
+      "T1": 9,
+      "T2": 0,
+      "T3": -5,
+      "T4": -1
+    },
+    "all_optimal_actions": [
+      "T1"
+    ],
+    "best_value": 9,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T1",
+        "distance": 1,
+        "value": 19,
+        "gain": 18,
+        "score_a": 18,
+        "score_b": 0,
+        "utility": 18
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 8,
+        "value": 21,
+        "gain": 13,
+        "score_a": 18,
+        "score_b": 13,
+        "utility": 5
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T1",
+        "target": "T4",
+        "distance": 7,
+        "value": 10,
+        "gain": 3,
+        "score_a": 21,
+        "score_b": 13,
+        "utility": 8
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T3",
+        "target": "T2",
+        "distance": 9,
+        "value": 8,
+        "gain": -1,
+        "score_a": 21,
+        "score_b": 12,
+        "utility": 9
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 9,
+    "depth": 2,
+    "action_values": {
+      "T1": 5,
+      "T2": -9,
+      "T3": -5,
+      "T4": -11
+    },
+    "all_optimal_actions": [
+      "T1"
+    ],
+    "best_value": 5,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T1",
+        "distance": 1,
+        "value": 19,
+        "gain": 18,
+        "score_a": 18,
+        "score_b": 0,
+        "utility": 18
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 8,
+        "value": 21,
+        "gain": 13,
+        "score_a": 18,
+        "score_b": 13,
+        "utility": 5
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 9,
+    "depth": 4,
+    "action_values": {
+      "T1": 8,
+      "T2": 1,
+      "T3": -6,
+      "T4": -2
+    },
+    "all_optimal_actions": [
+      "T1"
+    ],
+    "best_value": 8,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T1",
+        "distance": 1,
+        "value": 19,
+        "gain": 18,
+        "score_a": 18,
+        "score_b": 0,
+        "utility": 18
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 8,
+        "value": 21,
+        "gain": 13,
+        "score_a": 18,
+        "score_b": 13,
+        "utility": 5
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T1",
+        "target": "T4",
+        "distance": 7,
+        "value": 10,
+        "gain": 3,
+        "score_a": 21,
+        "score_b": 13,
+        "utility": 8
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T3",
+        "target": "T2",
+        "distance": 9,
+        "value": 9,
+        "gain": 0,
+        "score_a": 21,
+        "score_b": 13,
+        "utility": 8
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 10,
+    "depth": 2,
+    "action_values": {
+      "T1": 5,
+      "T2": -8,
+      "T3": -5,
+      "T4": -11
+    },
+    "all_optimal_actions": [
+      "T1"
+    ],
+    "best_value": 5,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T1",
+        "distance": 1,
+        "value": 19,
+        "gain": 18,
+        "score_a": 18,
+        "score_b": 0,
+        "utility": 18
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 8,
+        "value": 21,
+        "gain": 13,
+        "score_a": 18,
+        "score_b": 13,
+        "utility": 5
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 10,
+    "depth": 4,
+    "action_values": {
+      "T1": 7,
+      "T2": 2,
+      "T3": -7,
+      "T4": -3
+    },
+    "all_optimal_actions": [
+      "T1"
+    ],
+    "best_value": 7,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T1",
+        "distance": 1,
+        "value": 19,
+        "gain": 18,
+        "score_a": 18,
+        "score_b": 0,
+        "utility": 18
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 8,
+        "value": 21,
+        "gain": 13,
+        "score_a": 18,
+        "score_b": 13,
+        "utility": 5
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T1",
+        "target": "T2",
+        "distance": 4,
+        "value": 10,
+        "gain": 6,
+        "score_a": 24,
+        "score_b": 13,
+        "utility": 11
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T3",
+        "target": "T4",
+        "distance": 6,
+        "value": 10,
+        "gain": 4,
+        "score_a": 24,
+        "score_b": 17,
+        "utility": 7
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 11,
+    "depth": 2,
+    "action_values": {
+      "T1": 5,
+      "T2": -7,
+      "T3": -5,
+      "T4": -11
+    },
+    "all_optimal_actions": [
+      "T1"
+    ],
+    "best_value": 5,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T1",
+        "distance": 1,
+        "value": 19,
+        "gain": 18,
+        "score_a": 18,
+        "score_b": 0,
+        "utility": 18
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 8,
+        "value": 21,
+        "gain": 13,
+        "score_a": 18,
+        "score_b": 13,
+        "utility": 5
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 11,
+    "depth": 4,
+    "action_values": {
+      "T1": 8,
+      "T2": 3,
+      "T3": -6,
+      "T4": -4
+    },
+    "all_optimal_actions": [
+      "T1"
+    ],
+    "best_value": 8,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T1",
+        "distance": 1,
+        "value": 19,
+        "gain": 18,
+        "score_a": 18,
+        "score_b": 0,
+        "utility": 18
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 8,
+        "value": 21,
+        "gain": 13,
+        "score_a": 18,
+        "score_b": 13,
+        "utility": 5
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T1",
+        "target": "T2",
+        "distance": 4,
+        "value": 11,
+        "gain": 7,
+        "score_a": 25,
+        "score_b": 13,
+        "utility": 12
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T3",
+        "target": "T4",
+        "distance": 6,
+        "value": 10,
+        "gain": 4,
+        "score_a": 25,
+        "score_b": 17,
+        "utility": 8
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 12,
+    "depth": 2,
+    "action_values": {
+      "T1": 5,
+      "T2": -6,
+      "T3": -5,
+      "T4": -11
+    },
+    "all_optimal_actions": [
+      "T1"
+    ],
+    "best_value": 5,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T1",
+        "distance": 1,
+        "value": 19,
+        "gain": 18,
+        "score_a": 18,
+        "score_b": 0,
+        "utility": 18
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 8,
+        "value": 21,
+        "gain": 13,
+        "score_a": 18,
+        "score_b": 13,
+        "utility": 5
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 12,
+    "depth": 4,
+    "action_values": {
+      "T1": 9,
+      "T2": 4,
+      "T3": -5,
+      "T4": -5
+    },
+    "all_optimal_actions": [
+      "T1"
+    ],
+    "best_value": 9,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T1",
+        "distance": 1,
+        "value": 19,
+        "gain": 18,
+        "score_a": 18,
+        "score_b": 0,
+        "utility": 18
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 8,
+        "value": 21,
+        "gain": 13,
+        "score_a": 18,
+        "score_b": 13,
+        "utility": 5
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T1",
+        "target": "T2",
+        "distance": 4,
+        "value": 12,
+        "gain": 8,
+        "score_a": 26,
+        "score_b": 13,
+        "utility": 13
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T3",
+        "target": "T4",
+        "distance": 6,
+        "value": 10,
+        "gain": 4,
+        "score_a": 26,
+        "score_b": 17,
+        "utility": 9
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 13,
+    "depth": 2,
+    "action_values": {
+      "T1": 5,
+      "T2": -5,
+      "T3": -5,
+      "T4": -11
+    },
+    "all_optimal_actions": [
+      "T1"
+    ],
+    "best_value": 5,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T1",
+        "distance": 1,
+        "value": 19,
+        "gain": 18,
+        "score_a": 18,
+        "score_b": 0,
+        "utility": 18
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 8,
+        "value": 21,
+        "gain": 13,
+        "score_a": 18,
+        "score_b": 13,
+        "utility": 5
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 13,
+    "depth": 4,
+    "action_values": {
+      "T1": 10,
+      "T2": 5,
+      "T3": -4,
+      "T4": -6
+    },
+    "all_optimal_actions": [
+      "T1"
+    ],
+    "best_value": 10,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T1",
+        "distance": 1,
+        "value": 19,
+        "gain": 18,
+        "score_a": 18,
+        "score_b": 0,
+        "utility": 18
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 8,
+        "value": 21,
+        "gain": 13,
+        "score_a": 18,
+        "score_b": 13,
+        "utility": 5
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T1",
+        "target": "T2",
+        "distance": 4,
+        "value": 13,
+        "gain": 9,
+        "score_a": 27,
+        "score_b": 13,
+        "utility": 14
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T3",
+        "target": "T4",
+        "distance": 6,
+        "value": 10,
+        "gain": 4,
+        "score_a": 27,
+        "score_b": 17,
+        "utility": 10
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 14,
+    "depth": 2,
+    "action_values": {
+      "T1": 5,
+      "T2": -4,
+      "T3": -5,
+      "T4": -11
+    },
+    "all_optimal_actions": [
+      "T1"
+    ],
+    "best_value": 5,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T1",
+        "distance": 1,
+        "value": 19,
+        "gain": 18,
+        "score_a": 18,
+        "score_b": 0,
+        "utility": 18
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 8,
+        "value": 21,
+        "gain": 13,
+        "score_a": 18,
+        "score_b": 13,
+        "utility": 5
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 14,
+    "depth": 4,
+    "action_values": {
+      "T1": 11,
+      "T2": 6,
+      "T3": -3,
+      "T4": -7
+    },
+    "all_optimal_actions": [
+      "T1"
+    ],
+    "best_value": 11,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T1",
+        "distance": 1,
+        "value": 19,
+        "gain": 18,
+        "score_a": 18,
+        "score_b": 0,
+        "utility": 18
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 8,
+        "value": 21,
+        "gain": 13,
+        "score_a": 18,
+        "score_b": 13,
+        "utility": 5
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T1",
+        "target": "T2",
+        "distance": 4,
+        "value": 14,
+        "gain": 10,
+        "score_a": 28,
+        "score_b": 13,
+        "utility": 15
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T3",
+        "target": "T4",
+        "distance": 6,
+        "value": 10,
+        "gain": 4,
+        "score_a": 28,
+        "score_b": 17,
+        "utility": 11
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 15,
+    "depth": 2,
+    "action_values": {
+      "T1": 5,
+      "T2": -3,
+      "T3": -5,
+      "T4": -11
+    },
+    "all_optimal_actions": [
+      "T1"
+    ],
+    "best_value": 5,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T1",
+        "distance": 1,
+        "value": 19,
+        "gain": 18,
+        "score_a": 18,
+        "score_b": 0,
+        "utility": 18
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 8,
+        "value": 21,
+        "gain": 13,
+        "score_a": 18,
+        "score_b": 13,
+        "utility": 5
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 15,
+    "depth": 4,
+    "action_values": {
+      "T1": 12,
+      "T2": 7,
+      "T3": -2,
+      "T4": -8
+    },
+    "all_optimal_actions": [
+      "T1"
+    ],
+    "best_value": 12,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T1",
+        "distance": 1,
+        "value": 19,
+        "gain": 18,
+        "score_a": 18,
+        "score_b": 0,
+        "utility": 18
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 8,
+        "value": 21,
+        "gain": 13,
+        "score_a": 18,
+        "score_b": 13,
+        "utility": 5
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T1",
+        "target": "T2",
+        "distance": 4,
+        "value": 15,
+        "gain": 11,
+        "score_a": 29,
+        "score_b": 13,
+        "utility": 16
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T3",
+        "target": "T4",
+        "distance": 6,
+        "value": 10,
+        "gain": 4,
+        "score_a": 29,
+        "score_b": 17,
+        "utility": 12
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 16,
+    "depth": 2,
+    "action_values": {
+      "T1": 5,
+      "T2": -2,
+      "T3": -5,
+      "T4": -11
+    },
+    "all_optimal_actions": [
+      "T1"
+    ],
+    "best_value": 5,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T1",
+        "distance": 1,
+        "value": 19,
+        "gain": 18,
+        "score_a": 18,
+        "score_b": 0,
+        "utility": 18
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 8,
+        "value": 21,
+        "gain": 13,
+        "score_a": 18,
+        "score_b": 13,
+        "utility": 5
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 16,
+    "depth": 4,
+    "action_values": {
+      "T1": 13,
+      "T2": 8,
+      "T3": -1,
+      "T4": -9
+    },
+    "all_optimal_actions": [
+      "T1"
+    ],
+    "best_value": 13,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T1",
+        "distance": 1,
+        "value": 19,
+        "gain": 18,
+        "score_a": 18,
+        "score_b": 0,
+        "utility": 18
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 8,
+        "value": 21,
+        "gain": 13,
+        "score_a": 18,
+        "score_b": 13,
+        "utility": 5
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T1",
+        "target": "T2",
+        "distance": 4,
+        "value": 16,
+        "gain": 12,
+        "score_a": 30,
+        "score_b": 13,
+        "utility": 17
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T3",
+        "target": "T4",
+        "distance": 6,
+        "value": 10,
+        "gain": 4,
+        "score_a": 30,
+        "score_b": 17,
+        "utility": 13
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 17,
+    "depth": 2,
+    "action_values": {
+      "T1": 5,
+      "T2": -1,
+      "T3": -5,
+      "T4": -11
+    },
+    "all_optimal_actions": [
+      "T1"
+    ],
+    "best_value": 5,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T1",
+        "distance": 1,
+        "value": 19,
+        "gain": 18,
+        "score_a": 18,
+        "score_b": 0,
+        "utility": 18
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 8,
+        "value": 21,
+        "gain": 13,
+        "score_a": 18,
+        "score_b": 13,
+        "utility": 5
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 17,
+    "depth": 4,
+    "action_values": {
+      "T1": 13,
+      "T2": 9,
+      "T3": 0,
+      "T4": -10
+    },
+    "all_optimal_actions": [
+      "T1"
+    ],
+    "best_value": 13,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T1",
+        "distance": 1,
+        "value": 19,
+        "gain": 18,
+        "score_a": 18,
+        "score_b": 0,
+        "utility": 18
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T2",
+        "distance": 5,
+        "value": 17,
+        "gain": 12,
+        "score_a": 18,
+        "score_b": 12,
+        "utility": 6
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T1",
+        "target": "T3",
+        "distance": 13,
+        "value": 21,
+        "gain": 8,
+        "score_a": 26,
+        "score_b": 12,
+        "utility": 14
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T2",
+        "target": "T4",
+        "distance": 9,
+        "value": 10,
+        "gain": 1,
+        "score_a": 26,
+        "score_b": 13,
+        "utility": 13
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 18,
+    "depth": 2,
+    "action_values": {
+      "T1": 5,
+      "T2": 0,
+      "T3": -6,
+      "T4": -11
+    },
+    "all_optimal_actions": [
+      "T1"
+    ],
+    "best_value": 5,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T1",
+        "distance": 1,
+        "value": 19,
+        "gain": 18,
+        "score_a": 18,
+        "score_b": 0,
+        "utility": 18
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T2",
+        "distance": 5,
+        "value": 18,
+        "gain": 13,
+        "score_a": 18,
+        "score_b": 13,
+        "utility": 5
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 18,
+    "depth": 4,
+    "action_values": {
+      "T1": 12,
+      "T2": 10,
+      "T3": -1,
+      "T4": -11
+    },
+    "all_optimal_actions": [
+      "T1"
+    ],
+    "best_value": 12,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T1",
+        "distance": 1,
+        "value": 19,
+        "gain": 18,
+        "score_a": 18,
+        "score_b": 0,
+        "utility": 18
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T2",
+        "distance": 5,
+        "value": 18,
+        "gain": 13,
+        "score_a": 18,
+        "score_b": 13,
+        "utility": 5
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T1",
+        "target": "T3",
+        "distance": 13,
+        "value": 21,
+        "gain": 8,
+        "score_a": 26,
+        "score_b": 13,
+        "utility": 13
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T2",
+        "target": "T4",
+        "distance": 9,
+        "value": 10,
+        "gain": 1,
+        "score_a": 26,
+        "score_b": 14,
+        "utility": 12
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 19,
+    "depth": 2,
+    "action_values": {
+      "T1": 4,
+      "T2": 1,
+      "T3": -7,
+      "T4": -12
+    },
+    "all_optimal_actions": [
+      "T1"
+    ],
+    "best_value": 4,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T1",
+        "distance": 1,
+        "value": 19,
+        "gain": 18,
+        "score_a": 18,
+        "score_b": 0,
+        "utility": 18
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T2",
+        "distance": 5,
+        "value": 19,
+        "gain": 14,
+        "score_a": 18,
+        "score_b": 14,
+        "utility": 4
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 19,
+    "depth": 4,
+    "action_values": {
+      "T1": 11,
+      "T2": 11,
+      "T3": -2,
+      "T4": -12
+    },
+    "all_optimal_actions": [
+      "T1",
+      "T2"
+    ],
+    "best_value": 11,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T1",
+        "distance": 1,
+        "value": 19,
+        "gain": 18,
+        "score_a": 18,
+        "score_b": 0,
+        "utility": 18
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T2",
+        "distance": 5,
+        "value": 19,
+        "gain": 14,
+        "score_a": 18,
+        "score_b": 14,
+        "utility": 4
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T1",
+        "target": "T3",
+        "distance": 13,
+        "value": 21,
+        "gain": 8,
+        "score_a": 26,
+        "score_b": 14,
+        "utility": 12
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T2",
+        "target": "T4",
+        "distance": 9,
+        "value": 10,
+        "gain": 1,
+        "score_a": 26,
+        "score_b": 15,
+        "utility": 11
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 20,
+    "depth": 2,
+    "action_values": {
+      "T1": 3,
+      "T2": 2,
+      "T3": -8,
+      "T4": -13
+    },
+    "all_optimal_actions": [
+      "T1"
+    ],
+    "best_value": 3,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T1",
+        "distance": 1,
+        "value": 19,
+        "gain": 18,
+        "score_a": 18,
+        "score_b": 0,
+        "utility": 18
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T2",
+        "distance": 5,
+        "value": 20,
+        "gain": 15,
+        "score_a": 18,
+        "score_b": 15,
+        "utility": 3
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 20,
+    "depth": 4,
+    "action_values": {
+      "T1": 10,
+      "T2": 12,
+      "T3": -3,
+      "T4": -13
+    },
+    "all_optimal_actions": [
+      "T2"
+    ],
+    "best_value": 12,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T2",
+        "distance": 5,
+        "value": 20,
+        "gain": 15,
+        "score_a": 15,
+        "score_b": 0,
+        "utility": 15
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 7,
+        "value": 19,
+        "gain": 12,
+        "score_a": 15,
+        "score_b": 12,
+        "utility": 3
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T2",
+        "target": "T3",
+        "distance": 9,
+        "value": 21,
+        "gain": 12,
+        "score_a": 27,
+        "score_b": 12,
+        "utility": 15
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T1",
+        "target": "T4",
+        "distance": 7,
+        "value": 10,
+        "gain": 3,
+        "score_a": 27,
+        "score_b": 15,
+        "utility": 12
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 21,
+    "depth": 2,
+    "action_values": {
+      "T1": 2,
+      "T2": 3,
+      "T3": -9,
+      "T4": -14
+    },
+    "all_optimal_actions": [
+      "T2"
+    ],
+    "best_value": 3,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T2",
+        "distance": 5,
+        "value": 21,
+        "gain": 16,
+        "score_a": 16,
+        "score_b": 0,
+        "utility": 16
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 8,
+        "value": 21,
+        "gain": 13,
+        "score_a": 16,
+        "score_b": 13,
+        "utility": 3
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 21,
+    "depth": 4,
+    "action_values": {
+      "T1": 9,
+      "T2": 13,
+      "T3": -4,
+      "T4": -14
+    },
+    "all_optimal_actions": [
+      "T2"
+    ],
+    "best_value": 13,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T2",
+        "distance": 5,
+        "value": 21,
+        "gain": 16,
+        "score_a": 16,
+        "score_b": 0,
+        "utility": 16
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 7,
+        "value": 19,
+        "gain": 12,
+        "score_a": 16,
+        "score_b": 12,
+        "utility": 4
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T2",
+        "target": "T3",
+        "distance": 9,
+        "value": 21,
+        "gain": 12,
+        "score_a": 28,
+        "score_b": 12,
+        "utility": 16
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T1",
+        "target": "T4",
+        "distance": 7,
+        "value": 10,
+        "gain": 3,
+        "score_a": 28,
+        "score_b": 15,
+        "utility": 13
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 22,
+    "depth": 2,
+    "action_values": {
+      "T1": 1,
+      "T2": 4,
+      "T3": -10,
+      "T4": -15
+    },
+    "all_optimal_actions": [
+      "T2"
+    ],
+    "best_value": 4,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T2",
+        "distance": 5,
+        "value": 22,
+        "gain": 17,
+        "score_a": 17,
+        "score_b": 0,
+        "utility": 17
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 8,
+        "value": 21,
+        "gain": 13,
+        "score_a": 17,
+        "score_b": 13,
+        "utility": 4
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 22,
+    "depth": 4,
+    "action_values": {
+      "T1": 8,
+      "T2": 14,
+      "T3": -5,
+      "T4": -15
+    },
+    "all_optimal_actions": [
+      "T2"
+    ],
+    "best_value": 14,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T2",
+        "distance": 5,
+        "value": 22,
+        "gain": 17,
+        "score_a": 17,
+        "score_b": 0,
+        "utility": 17
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 7,
+        "value": 19,
+        "gain": 12,
+        "score_a": 17,
+        "score_b": 12,
+        "utility": 5
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T2",
+        "target": "T3",
+        "distance": 9,
+        "value": 21,
+        "gain": 12,
+        "score_a": 29,
+        "score_b": 12,
+        "utility": 17
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T1",
+        "target": "T4",
+        "distance": 7,
+        "value": 10,
+        "gain": 3,
+        "score_a": 29,
+        "score_b": 15,
+        "utility": 14
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 23,
+    "depth": 2,
+    "action_values": {
+      "T1": 0,
+      "T2": 5,
+      "T3": -11,
+      "T4": -16
+    },
+    "all_optimal_actions": [
+      "T2"
+    ],
+    "best_value": 5,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T2",
+        "distance": 5,
+        "value": 23,
+        "gain": 18,
+        "score_a": 18,
+        "score_b": 0,
+        "utility": 18
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 8,
+        "value": 21,
+        "gain": 13,
+        "score_a": 18,
+        "score_b": 13,
+        "utility": 5
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 23,
+    "depth": 4,
+    "action_values": {
+      "T1": 7,
+      "T2": 15,
+      "T3": -6,
+      "T4": -16
+    },
+    "all_optimal_actions": [
+      "T2"
+    ],
+    "best_value": 15,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T2",
+        "distance": 5,
+        "value": 23,
+        "gain": 18,
+        "score_a": 18,
+        "score_b": 0,
+        "utility": 18
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 7,
+        "value": 19,
+        "gain": 12,
+        "score_a": 18,
+        "score_b": 12,
+        "utility": 6
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T2",
+        "target": "T3",
+        "distance": 9,
+        "value": 21,
+        "gain": 12,
+        "score_a": 30,
+        "score_b": 12,
+        "utility": 18
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T1",
+        "target": "T4",
+        "distance": 7,
+        "value": 10,
+        "gain": 3,
+        "score_a": 30,
+        "score_b": 15,
+        "utility": 15
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 24,
+    "depth": 2,
+    "action_values": {
+      "T1": -1,
+      "T2": 6,
+      "T3": -12,
+      "T4": -17
+    },
+    "all_optimal_actions": [
+      "T2"
+    ],
+    "best_value": 6,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T2",
+        "distance": 5,
+        "value": 24,
+        "gain": 19,
+        "score_a": 19,
+        "score_b": 0,
+        "utility": 19
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 8,
+        "value": 21,
+        "gain": 13,
+        "score_a": 19,
+        "score_b": 13,
+        "utility": 6
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 24,
+    "depth": 4,
+    "action_values": {
+      "T1": 6,
+      "T2": 16,
+      "T3": -7,
+      "T4": -17
+    },
+    "all_optimal_actions": [
+      "T2"
+    ],
+    "best_value": 16,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T2",
+        "distance": 5,
+        "value": 24,
+        "gain": 19,
+        "score_a": 19,
+        "score_b": 0,
+        "utility": 19
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 7,
+        "value": 19,
+        "gain": 12,
+        "score_a": 19,
+        "score_b": 12,
+        "utility": 7
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T2",
+        "target": "T3",
+        "distance": 9,
+        "value": 21,
+        "gain": 12,
+        "score_a": 31,
+        "score_b": 12,
+        "utility": 19
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T1",
+        "target": "T4",
+        "distance": 7,
+        "value": 10,
+        "gain": 3,
+        "score_a": 31,
+        "score_b": 15,
+        "utility": 16
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 25,
+    "depth": 2,
+    "action_values": {
+      "T1": -2,
+      "T2": 7,
+      "T3": -13,
+      "T4": -18
+    },
+    "all_optimal_actions": [
+      "T2"
+    ],
+    "best_value": 7,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T2",
+        "distance": 5,
+        "value": 25,
+        "gain": 20,
+        "score_a": 20,
+        "score_b": 0,
+        "utility": 20
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 8,
+        "value": 21,
+        "gain": 13,
+        "score_a": 20,
+        "score_b": 13,
+        "utility": 7
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 25,
+    "depth": 4,
+    "action_values": {
+      "T1": 5,
+      "T2": 17,
+      "T3": -8,
+      "T4": -18
+    },
+    "all_optimal_actions": [
+      "T2"
+    ],
+    "best_value": 17,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T2",
+        "distance": 5,
+        "value": 25,
+        "gain": 20,
+        "score_a": 20,
+        "score_b": 0,
+        "utility": 20
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 7,
+        "value": 19,
+        "gain": 12,
+        "score_a": 20,
+        "score_b": 12,
+        "utility": 8
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T2",
+        "target": "T3",
+        "distance": 9,
+        "value": 21,
+        "gain": 12,
+        "score_a": 32,
+        "score_b": 12,
+        "utility": 20
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T1",
+        "target": "T4",
+        "distance": 7,
+        "value": 10,
+        "gain": 3,
+        "score_a": 32,
+        "score_b": 15,
+        "utility": 17
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 26,
+    "depth": 2,
+    "action_values": {
+      "T1": -3,
+      "T2": 8,
+      "T3": -14,
+      "T4": -19
+    },
+    "all_optimal_actions": [
+      "T2"
+    ],
+    "best_value": 8,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T2",
+        "distance": 5,
+        "value": 26,
+        "gain": 21,
+        "score_a": 21,
+        "score_b": 0,
+        "utility": 21
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 8,
+        "value": 21,
+        "gain": 13,
+        "score_a": 21,
+        "score_b": 13,
+        "utility": 8
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 26,
+    "depth": 4,
+    "action_values": {
+      "T1": 4,
+      "T2": 18,
+      "T3": -9,
+      "T4": -19
+    },
+    "all_optimal_actions": [
+      "T2"
+    ],
+    "best_value": 18,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T2",
+        "distance": 5,
+        "value": 26,
+        "gain": 21,
+        "score_a": 21,
+        "score_b": 0,
+        "utility": 21
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 7,
+        "value": 19,
+        "gain": 12,
+        "score_a": 21,
+        "score_b": 12,
+        "utility": 9
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T2",
+        "target": "T3",
+        "distance": 9,
+        "value": 21,
+        "gain": 12,
+        "score_a": 33,
+        "score_b": 12,
+        "utility": 21
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T1",
+        "target": "T4",
+        "distance": 7,
+        "value": 10,
+        "gain": 3,
+        "score_a": 33,
+        "score_b": 15,
+        "utility": 18
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 27,
+    "depth": 2,
+    "action_values": {
+      "T1": -4,
+      "T2": 9,
+      "T3": -15,
+      "T4": -20
+    },
+    "all_optimal_actions": [
+      "T2"
+    ],
+    "best_value": 9,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T2",
+        "distance": 5,
+        "value": 27,
+        "gain": 22,
+        "score_a": 22,
+        "score_b": 0,
+        "utility": 22
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 8,
+        "value": 21,
+        "gain": 13,
+        "score_a": 22,
+        "score_b": 13,
+        "utility": 9
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 27,
+    "depth": 4,
+    "action_values": {
+      "T1": 3,
+      "T2": 19,
+      "T3": -10,
+      "T4": -20
+    },
+    "all_optimal_actions": [
+      "T2"
+    ],
+    "best_value": 19,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T2",
+        "distance": 5,
+        "value": 27,
+        "gain": 22,
+        "score_a": 22,
+        "score_b": 0,
+        "utility": 22
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 7,
+        "value": 19,
+        "gain": 12,
+        "score_a": 22,
+        "score_b": 12,
+        "utility": 10
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T2",
+        "target": "T3",
+        "distance": 9,
+        "value": 21,
+        "gain": 12,
+        "score_a": 34,
+        "score_b": 12,
+        "utility": 22
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T1",
+        "target": "T4",
+        "distance": 7,
+        "value": 10,
+        "gain": 3,
+        "score_a": 34,
+        "score_b": 15,
+        "utility": 19
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 28,
+    "depth": 2,
+    "action_values": {
+      "T1": -5,
+      "T2": 10,
+      "T3": -16,
+      "T4": -21
+    },
+    "all_optimal_actions": [
+      "T2"
+    ],
+    "best_value": 10,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T2",
+        "distance": 5,
+        "value": 28,
+        "gain": 23,
+        "score_a": 23,
+        "score_b": 0,
+        "utility": 23
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 8,
+        "value": 21,
+        "gain": 13,
+        "score_a": 23,
+        "score_b": 13,
+        "utility": 10
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 28,
+    "depth": 4,
+    "action_values": {
+      "T1": 2,
+      "T2": 20,
+      "T3": -11,
+      "T4": -21
+    },
+    "all_optimal_actions": [
+      "T2"
+    ],
+    "best_value": 20,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T2",
+        "distance": 5,
+        "value": 28,
+        "gain": 23,
+        "score_a": 23,
+        "score_b": 0,
+        "utility": 23
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 7,
+        "value": 19,
+        "gain": 12,
+        "score_a": 23,
+        "score_b": 12,
+        "utility": 11
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T2",
+        "target": "T3",
+        "distance": 9,
+        "value": 21,
+        "gain": 12,
+        "score_a": 35,
+        "score_b": 12,
+        "utility": 23
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T1",
+        "target": "T4",
+        "distance": 7,
+        "value": 10,
+        "gain": 3,
+        "score_a": 35,
+        "score_b": 15,
+        "utility": 20
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 29,
+    "depth": 2,
+    "action_values": {
+      "T1": -6,
+      "T2": 11,
+      "T3": -17,
+      "T4": -22
+    },
+    "all_optimal_actions": [
+      "T2"
+    ],
+    "best_value": 11,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T2",
+        "distance": 5,
+        "value": 29,
+        "gain": 24,
+        "score_a": 24,
+        "score_b": 0,
+        "utility": 24
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 8,
+        "value": 21,
+        "gain": 13,
+        "score_a": 24,
+        "score_b": 13,
+        "utility": 11
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 29,
+    "depth": 4,
+    "action_values": {
+      "T1": 1,
+      "T2": 21,
+      "T3": -12,
+      "T4": -22
+    },
+    "all_optimal_actions": [
+      "T2"
+    ],
+    "best_value": 21,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T2",
+        "distance": 5,
+        "value": 29,
+        "gain": 24,
+        "score_a": 24,
+        "score_b": 0,
+        "utility": 24
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 7,
+        "value": 19,
+        "gain": 12,
+        "score_a": 24,
+        "score_b": 12,
+        "utility": 12
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T2",
+        "target": "T3",
+        "distance": 9,
+        "value": 21,
+        "gain": 12,
+        "score_a": 36,
+        "score_b": 12,
+        "utility": 24
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T1",
+        "target": "T4",
+        "distance": 7,
+        "value": 10,
+        "gain": 3,
+        "score_a": 36,
+        "score_b": 15,
+        "utility": 21
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 30,
+    "depth": 2,
+    "action_values": {
+      "T1": -7,
+      "T2": 12,
+      "T3": -18,
+      "T4": -23
+    },
+    "all_optimal_actions": [
+      "T2"
+    ],
+    "best_value": 12,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T2",
+        "distance": 5,
+        "value": 30,
+        "gain": 25,
+        "score_a": 25,
+        "score_b": 0,
+        "utility": 25
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 8,
+        "value": 21,
+        "gain": 13,
+        "score_a": 25,
+        "score_b": 13,
+        "utility": 12
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 30,
+    "depth": 4,
+    "action_values": {
+      "T1": 0,
+      "T2": 22,
+      "T3": -13,
+      "T4": -23
+    },
+    "all_optimal_actions": [
+      "T2"
+    ],
+    "best_value": 22,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T2",
+        "distance": 5,
+        "value": 30,
+        "gain": 25,
+        "score_a": 25,
+        "score_b": 0,
+        "utility": 25
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 7,
+        "value": 19,
+        "gain": 12,
+        "score_a": 25,
+        "score_b": 12,
+        "utility": 13
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T2",
+        "target": "T3",
+        "distance": 9,
+        "value": 21,
+        "gain": 12,
+        "score_a": 37,
+        "score_b": 12,
+        "utility": 25
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T1",
+        "target": "T4",
+        "distance": 7,
+        "value": 10,
+        "gain": 3,
+        "score_a": 37,
+        "score_b": 15,
+        "utility": 22
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 31,
+    "depth": 2,
+    "action_values": {
+      "T1": -8,
+      "T2": 13,
+      "T3": -19,
+      "T4": -24
+    },
+    "all_optimal_actions": [
+      "T2"
+    ],
+    "best_value": 13,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T2",
+        "distance": 5,
+        "value": 31,
+        "gain": 26,
+        "score_a": 26,
+        "score_b": 0,
+        "utility": 26
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 8,
+        "value": 21,
+        "gain": 13,
+        "score_a": 26,
+        "score_b": 13,
+        "utility": 13
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 31,
+    "depth": 4,
+    "action_values": {
+      "T1": -1,
+      "T2": 23,
+      "T3": -14,
+      "T4": -24
+    },
+    "all_optimal_actions": [
+      "T2"
+    ],
+    "best_value": 23,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T2",
+        "distance": 5,
+        "value": 31,
+        "gain": 26,
+        "score_a": 26,
+        "score_b": 0,
+        "utility": 26
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 7,
+        "value": 19,
+        "gain": 12,
+        "score_a": 26,
+        "score_b": 12,
+        "utility": 14
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T2",
+        "target": "T3",
+        "distance": 9,
+        "value": 21,
+        "gain": 12,
+        "score_a": 38,
+        "score_b": 12,
+        "utility": 26
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T1",
+        "target": "T4",
+        "distance": 7,
+        "value": 10,
+        "gain": 3,
+        "score_a": 38,
+        "score_b": 15,
+        "utility": 23
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 32,
+    "depth": 2,
+    "action_values": {
+      "T1": -9,
+      "T2": 14,
+      "T3": -20,
+      "T4": -25
+    },
+    "all_optimal_actions": [
+      "T2"
+    ],
+    "best_value": 14,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T2",
+        "distance": 5,
+        "value": 32,
+        "gain": 27,
+        "score_a": 27,
+        "score_b": 0,
+        "utility": 27
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 8,
+        "value": 21,
+        "gain": 13,
+        "score_a": 27,
+        "score_b": 13,
+        "utility": 14
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 32,
+    "depth": 4,
+    "action_values": {
+      "T1": -2,
+      "T2": 24,
+      "T3": -15,
+      "T4": -25
+    },
+    "all_optimal_actions": [
+      "T2"
+    ],
+    "best_value": 24,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T2",
+        "distance": 5,
+        "value": 32,
+        "gain": 27,
+        "score_a": 27,
+        "score_b": 0,
+        "utility": 27
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 7,
+        "value": 19,
+        "gain": 12,
+        "score_a": 27,
+        "score_b": 12,
+        "utility": 15
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T2",
+        "target": "T3",
+        "distance": 9,
+        "value": 21,
+        "gain": 12,
+        "score_a": 39,
+        "score_b": 12,
+        "utility": 27
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T1",
+        "target": "T4",
+        "distance": 7,
+        "value": 10,
+        "gain": 3,
+        "score_a": 39,
+        "score_b": 15,
+        "utility": 24
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 33,
+    "depth": 2,
+    "action_values": {
+      "T1": -10,
+      "T2": 15,
+      "T3": -21,
+      "T4": -26
+    },
+    "all_optimal_actions": [
+      "T2"
+    ],
+    "best_value": 15,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T2",
+        "distance": 5,
+        "value": 33,
+        "gain": 28,
+        "score_a": 28,
+        "score_b": 0,
+        "utility": 28
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 8,
+        "value": 21,
+        "gain": 13,
+        "score_a": 28,
+        "score_b": 13,
+        "utility": 15
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 33,
+    "depth": 4,
+    "action_values": {
+      "T1": -3,
+      "T2": 25,
+      "T3": -16,
+      "T4": -26
+    },
+    "all_optimal_actions": [
+      "T2"
+    ],
+    "best_value": 25,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T2",
+        "distance": 5,
+        "value": 33,
+        "gain": 28,
+        "score_a": 28,
+        "score_b": 0,
+        "utility": 28
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 7,
+        "value": 19,
+        "gain": 12,
+        "score_a": 28,
+        "score_b": 12,
+        "utility": 16
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T2",
+        "target": "T3",
+        "distance": 9,
+        "value": 21,
+        "gain": 12,
+        "score_a": 40,
+        "score_b": 12,
+        "utility": 28
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T1",
+        "target": "T4",
+        "distance": 7,
+        "value": 10,
+        "gain": 3,
+        "score_a": 40,
+        "score_b": 15,
+        "utility": 25
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 34,
+    "depth": 2,
+    "action_values": {
+      "T1": -11,
+      "T2": 16,
+      "T3": -22,
+      "T4": -27
+    },
+    "all_optimal_actions": [
+      "T2"
+    ],
+    "best_value": 16,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T2",
+        "distance": 5,
+        "value": 34,
+        "gain": 29,
+        "score_a": 29,
+        "score_b": 0,
+        "utility": 29
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 8,
+        "value": 21,
+        "gain": 13,
+        "score_a": 29,
+        "score_b": 13,
+        "utility": 16
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 34,
+    "depth": 4,
+    "action_values": {
+      "T1": -4,
+      "T2": 26,
+      "T3": -17,
+      "T4": -27
+    },
+    "all_optimal_actions": [
+      "T2"
+    ],
+    "best_value": 26,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T2",
+        "distance": 5,
+        "value": 34,
+        "gain": 29,
+        "score_a": 29,
+        "score_b": 0,
+        "utility": 29
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 7,
+        "value": 19,
+        "gain": 12,
+        "score_a": 29,
+        "score_b": 12,
+        "utility": 17
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T2",
+        "target": "T3",
+        "distance": 9,
+        "value": 21,
+        "gain": 12,
+        "score_a": 41,
+        "score_b": 12,
+        "utility": 29
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T1",
+        "target": "T4",
+        "distance": 7,
+        "value": 10,
+        "gain": 3,
+        "score_a": 41,
+        "score_b": 15,
+        "utility": 26
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 35,
+    "depth": 2,
+    "action_values": {
+      "T1": -12,
+      "T2": 17,
+      "T3": -23,
+      "T4": -28
+    },
+    "all_optimal_actions": [
+      "T2"
+    ],
+    "best_value": 17,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T2",
+        "distance": 5,
+        "value": 35,
+        "gain": 30,
+        "score_a": 30,
+        "score_b": 0,
+        "utility": 30
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 8,
+        "value": 21,
+        "gain": 13,
+        "score_a": 30,
+        "score_b": 13,
+        "utility": 17
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 35,
+    "depth": 4,
+    "action_values": {
+      "T1": -5,
+      "T2": 27,
+      "T3": -18,
+      "T4": -28
+    },
+    "all_optimal_actions": [
+      "T2"
+    ],
+    "best_value": 27,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T2",
+        "distance": 5,
+        "value": 35,
+        "gain": 30,
+        "score_a": 30,
+        "score_b": 0,
+        "utility": 30
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 7,
+        "value": 19,
+        "gain": 12,
+        "score_a": 30,
+        "score_b": 12,
+        "utility": 18
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T2",
+        "target": "T3",
+        "distance": 9,
+        "value": 21,
+        "gain": 12,
+        "score_a": 42,
+        "score_b": 12,
+        "utility": 30
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T1",
+        "target": "T4",
+        "distance": 7,
+        "value": 10,
+        "gain": 3,
+        "score_a": 42,
+        "score_b": 15,
+        "utility": 27
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 36,
+    "depth": 2,
+    "action_values": {
+      "T1": -13,
+      "T2": 18,
+      "T3": -24,
+      "T4": -29
+    },
+    "all_optimal_actions": [
+      "T2"
+    ],
+    "best_value": 18,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T2",
+        "distance": 5,
+        "value": 36,
+        "gain": 31,
+        "score_a": 31,
+        "score_b": 0,
+        "utility": 31
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 8,
+        "value": 21,
+        "gain": 13,
+        "score_a": 31,
+        "score_b": 13,
+        "utility": 18
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 36,
+    "depth": 4,
+    "action_values": {
+      "T1": -6,
+      "T2": 28,
+      "T3": -19,
+      "T4": -29
+    },
+    "all_optimal_actions": [
+      "T2"
+    ],
+    "best_value": 28,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T2",
+        "distance": 5,
+        "value": 36,
+        "gain": 31,
+        "score_a": 31,
+        "score_b": 0,
+        "utility": 31
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 7,
+        "value": 19,
+        "gain": 12,
+        "score_a": 31,
+        "score_b": 12,
+        "utility": 19
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T2",
+        "target": "T3",
+        "distance": 9,
+        "value": 21,
+        "gain": 12,
+        "score_a": 43,
+        "score_b": 12,
+        "utility": 31
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T1",
+        "target": "T4",
+        "distance": 7,
+        "value": 10,
+        "gain": 3,
+        "score_a": 43,
+        "score_b": 15,
+        "utility": 28
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 37,
+    "depth": 2,
+    "action_values": {
+      "T1": -14,
+      "T2": 19,
+      "T3": -25,
+      "T4": -30
+    },
+    "all_optimal_actions": [
+      "T2"
+    ],
+    "best_value": 19,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T2",
+        "distance": 5,
+        "value": 37,
+        "gain": 32,
+        "score_a": 32,
+        "score_b": 0,
+        "utility": 32
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 8,
+        "value": 21,
+        "gain": 13,
+        "score_a": 32,
+        "score_b": 13,
+        "utility": 19
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 37,
+    "depth": 4,
+    "action_values": {
+      "T1": -7,
+      "T2": 29,
+      "T3": -20,
+      "T4": -30
+    },
+    "all_optimal_actions": [
+      "T2"
+    ],
+    "best_value": 29,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T2",
+        "distance": 5,
+        "value": 37,
+        "gain": 32,
+        "score_a": 32,
+        "score_b": 0,
+        "utility": 32
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 7,
+        "value": 19,
+        "gain": 12,
+        "score_a": 32,
+        "score_b": 12,
+        "utility": 20
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T2",
+        "target": "T3",
+        "distance": 9,
+        "value": 21,
+        "gain": 12,
+        "score_a": 44,
+        "score_b": 12,
+        "utility": 32
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T1",
+        "target": "T4",
+        "distance": 7,
+        "value": 10,
+        "gain": 3,
+        "score_a": 44,
+        "score_b": 15,
+        "utility": 29
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 38,
+    "depth": 2,
+    "action_values": {
+      "T1": -15,
+      "T2": 20,
+      "T3": -26,
+      "T4": -31
+    },
+    "all_optimal_actions": [
+      "T2"
+    ],
+    "best_value": 20,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T2",
+        "distance": 5,
+        "value": 38,
+        "gain": 33,
+        "score_a": 33,
+        "score_b": 0,
+        "utility": 33
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 8,
+        "value": 21,
+        "gain": 13,
+        "score_a": 33,
+        "score_b": 13,
+        "utility": 20
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 38,
+    "depth": 4,
+    "action_values": {
+      "T1": -8,
+      "T2": 30,
+      "T3": -21,
+      "T4": -31
+    },
+    "all_optimal_actions": [
+      "T2"
+    ],
+    "best_value": 30,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T2",
+        "distance": 5,
+        "value": 38,
+        "gain": 33,
+        "score_a": 33,
+        "score_b": 0,
+        "utility": 33
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 7,
+        "value": 19,
+        "gain": 12,
+        "score_a": 33,
+        "score_b": 12,
+        "utility": 21
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T2",
+        "target": "T3",
+        "distance": 9,
+        "value": 21,
+        "gain": 12,
+        "score_a": 45,
+        "score_b": 12,
+        "utility": 33
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T1",
+        "target": "T4",
+        "distance": 7,
+        "value": 10,
+        "gain": 3,
+        "score_a": 45,
+        "score_b": 15,
+        "utility": 30
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 39,
+    "depth": 2,
+    "action_values": {
+      "T1": -16,
+      "T2": 21,
+      "T3": -27,
+      "T4": -32
+    },
+    "all_optimal_actions": [
+      "T2"
+    ],
+    "best_value": 21,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T2",
+        "distance": 5,
+        "value": 39,
+        "gain": 34,
+        "score_a": 34,
+        "score_b": 0,
+        "utility": 34
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 8,
+        "value": 21,
+        "gain": 13,
+        "score_a": 34,
+        "score_b": 13,
+        "utility": 21
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 39,
+    "depth": 4,
+    "action_values": {
+      "T1": -9,
+      "T2": 31,
+      "T3": -22,
+      "T4": -32
+    },
+    "all_optimal_actions": [
+      "T2"
+    ],
+    "best_value": 31,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T2",
+        "distance": 5,
+        "value": 39,
+        "gain": 34,
+        "score_a": 34,
+        "score_b": 0,
+        "utility": 34
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 7,
+        "value": 19,
+        "gain": 12,
+        "score_a": 34,
+        "score_b": 12,
+        "utility": 22
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T2",
+        "target": "T3",
+        "distance": 9,
+        "value": 21,
+        "gain": 12,
+        "score_a": 46,
+        "score_b": 12,
+        "utility": 34
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T1",
+        "target": "T4",
+        "distance": 7,
+        "value": 10,
+        "gain": 3,
+        "score_a": 46,
+        "score_b": 15,
+        "utility": 31
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 40,
+    "depth": 2,
+    "action_values": {
+      "T1": -17,
+      "T2": 22,
+      "T3": -28,
+      "T4": -33
+    },
+    "all_optimal_actions": [
+      "T2"
+    ],
+    "best_value": 22,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T2",
+        "distance": 5,
+        "value": 40,
+        "gain": 35,
+        "score_a": 35,
+        "score_b": 0,
+        "utility": 35
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T3",
+        "distance": 8,
+        "value": 21,
+        "gain": 13,
+        "score_a": 35,
+        "score_b": 13,
+        "utility": 22
+      }
+    ]
+  },
+  {
+    "case": "C3",
+    "target": "T2",
+    "value": 40,
+    "depth": 4,
+    "action_values": {
+      "T1": -10,
+      "T2": 32,
+      "T3": -23,
+      "T4": -33
+    },
+    "all_optimal_actions": [
+      "T2"
+    ],
+    "best_value": 32,
+    "line": [
+      {
+        "turn": 1,
+        "player": "A",
+        "origin": "A",
+        "target": "T2",
+        "distance": 5,
+        "value": 40,
+        "gain": 35,
+        "score_a": 35,
+        "score_b": 0,
+        "utility": 35
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "origin": "B",
+        "target": "T1",
+        "distance": 7,
+        "value": 19,
+        "gain": 12,
+        "score_a": 35,
+        "score_b": 12,
+        "utility": 23
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "origin": "T2",
+        "target": "T3",
+        "distance": 9,
+        "value": 21,
+        "gain": 12,
+        "score_a": 47,
+        "score_b": 12,
+        "utility": 35
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "origin": "T1",
+        "target": "T4",
+        "distance": 7,
+        "value": 10,
+        "gain": 3,
+        "score_a": 47,
+        "score_b": 15,
+        "utility": 32
+      }
+    ]
+  }
+]

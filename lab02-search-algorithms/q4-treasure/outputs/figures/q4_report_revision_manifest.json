@@ -1,0 +1,14 @@
+{
+  "script": "scripts/plot_report_revision.py",
+  "sources": [
+    "outputs/q4/diagnostics/teacher.json",
+    "outputs/q4/diagnostics/value_sweeps.json"
+  ],
+  "files": [
+    "q4_first_move_report.png",
+    "q4_basis_report_layout.png",
+    "q4_distance_matrix_report.png",
+    "q4_sensitivity_report.png"
+  ],
+  "note": "普通柱状图和折线图；不加最优标记、阈值线、网格或说明文字。仅重绘已保存数据。"
+}

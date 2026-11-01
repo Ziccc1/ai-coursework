@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "experiment_groups": 4,
+  "run_rows": 464,
+  "unique_instances": 89,
+  "counts": {
+    "Q2-01": 15,
+    "Q2-02": 3,
+    "Q2-03": 86,
+    "Q2-04": 360
+  },
+  "input_hashes_verified": true,
+  "answers_cross_checked": true,
+  "timing_mode": "full"
+}

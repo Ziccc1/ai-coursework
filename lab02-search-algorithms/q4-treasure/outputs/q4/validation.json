@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "experiment_groups": 5,
+  "run_rows": 1548,
+  "counts": {
+    "Q4-01": 8,
+    "Q4-02": 12,
+    "Q4-03": 320,
+    "Q4-04": 248,
+    "Q4-05": 960
+  },
+  "statuses": {
+    "ok": 1548
+  },
+  "unique_test_instances": 347,
+  "development_instances": 10,
+  "unique_test_geometries": 285,
+  "source_hash": "13d13f52f3751d7a0f9703fe178bafef22a10639579ed988106845751cc34cf4",
+  "independent_distance_and_action_values_verified": true,
+  "canonical_ties_verified": true,
+  "exhaustive_small_cases_verified": true,
+  "root_action_diagnostics_and_full_continuations_verified": true,
+  "development_test_separation_verified": true,
+  "legacy_measured_kernel_unchanged": true
+}

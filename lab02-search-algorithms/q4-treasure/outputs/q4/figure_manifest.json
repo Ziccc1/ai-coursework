@@ -1,0 +1,51 @@
+[
+  {
+    "id": "q4_teacher",
+    "path": "outputs/figures/q4_teacher.png",
+    "source": "Q4-01; full-window diagnostics",
+    "claim": "深度改变原题首步；浅层首步的完整损失为2，而非不同深度估值相减",
+    "script": "scripts/plot_treasure.py"
+  },
+  {
+    "id": "q4_cases",
+    "path": "outputs/figures/q4_cases.png",
+    "source": "Q4-02; curated examples",
+    "claim": "四类人工场景区分位置、竞争与绕行；并非随机平均策略效果",
+    "script": "scripts/plot_treasure.py"
+  },
+  {
+    "id": "q4_ablation",
+    "path": "outputs/figures/q4_ablation.png",
+    "source": "Q4-03; N=20 per condition",
+    "claim": "节点减少与实际耗时共同评价，五版本保持同一有限深度目标",
+    "script": "scripts/plot_treasure.py"
+  },
+  {
+    "id": "q4_ordering",
+    "path": "outputs/figures/q4_ordering.png",
+    "source": "Q4-03; test seeds 10..29; parameter frozen on development seeds",
+    "claim": "排序收益在独立测试集配对比较，不免费使用预知子树值",
+    "script": "scripts/plot_treasure.py"
+  },
+  {
+    "id": "q4_sensitivity",
+    "path": "outputs/figures/q4_sensitivity.png",
+    "source": "Q4-04; integer scans; ties retained",
+    "claim": "最优首步随宝藏价值改变，空心点表示最优值包络",
+    "script": "scripts/plot_treasure.py"
+  },
+  {
+    "id": "q4_scaling",
+    "path": "outputs/figures/q4_scaling.png",
+    "source": "Q4-05; N=20 per condition; variables controlled separately",
+    "claim": "网格大小影响距离预计算，宝藏分支与深度影响博弈搜索，两部分开销分别测量",
+    "script": "scripts/plot_treasure.py"
+  },
+  {
+    "id": "q4_full_search",
+    "path": "outputs/figures/q4_full_search.png",
+    "source": "Q4-05; full_search_reference; N=20",
+    "claim": "完整搜索规模增长不与固定H的分支实验混为同一趋势",
+    "script": "scripts/plot_treasure.py"
+  }
+]

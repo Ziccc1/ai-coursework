@@ -1,0 +1,47 @@
+{
+  "minimax": {
+    "value": 5,
+    "calls": 15,
+    "expanded": 7,
+    "leaf_evals": 8,
+    "ab_cutoffs": 0,
+    "tt_cutoffs": 0,
+    "tt_probes": 0,
+    "tt_hits": 0,
+    "tt_entries": 0,
+    "elapsed_ns": 41300,
+    "status": "ok",
+    "visited_leaves": [
+      3,
+      5,
+      6,
+      9,
+      6,
+      9,
+      1,
+      2
+    ]
+  },
+  "alphabeta": {
+    "value": 5,
+    "calls": 14,
+    "expanded": 7,
+    "leaf_evals": 7,
+    "ab_cutoffs": 1,
+    "tt_cutoffs": 0,
+    "tt_probes": 0,
+    "tt_hits": 0,
+    "tt_entries": 0,
+    "elapsed_ns": 22600,
+    "status": "ok",
+    "visited_leaves": [
+      3,
+      5,
+      6,
+      6,
+      9,
+      1,
+      2
+    ]
+  }
+}

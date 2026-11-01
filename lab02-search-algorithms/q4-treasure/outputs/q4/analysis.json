@@ -1,0 +1,935 @@
+{
+  "rows": 1548,
+  "selected_eta": 1.0,
+  "scenarios": [
+    {
+      "case": "teacher",
+      "greedy": "T2",
+      "greedy_full_value": 1,
+      "shallow": "T2",
+      "shallow_full_value": 1,
+      "optimal": "T3",
+      "full_value": 3,
+      "greedy_regret": 2,
+      "shallow_regret": 2
+    },
+    {
+      "case": "C1",
+      "greedy": "T1",
+      "greedy_full_value": 2,
+      "shallow": "T4",
+      "shallow_full_value": -3,
+      "optimal": "T2",
+      "full_value": 6,
+      "greedy_regret": 4,
+      "shallow_regret": 9
+    },
+    {
+      "case": "C2",
+      "greedy": "T3",
+      "greedy_full_value": 7,
+      "shallow": "T3",
+      "shallow_full_value": 7,
+      "optimal": "T2",
+      "full_value": 9,
+      "greedy_regret": 2,
+      "shallow_regret": 2
+    },
+    {
+      "case": "C3",
+      "greedy": "T1",
+      "greedy_full_value": 8,
+      "shallow": "T2",
+      "shallow_full_value": 14,
+      "optimal": "T2",
+      "full_value": 14,
+      "greedy_regret": 6,
+      "shallow_regret": 0
+    },
+    {
+      "case": "C4",
+      "greedy": "T4",
+      "greedy_full_value": -1,
+      "shallow": "T4",
+      "shallow_full_value": -1,
+      "optimal": "T2",
+      "full_value": 3,
+      "greedy_regret": 4,
+      "shallow_regret": 4
+    }
+  ],
+  "ablation": [
+    {
+      "depth": 4,
+      "algorithm": "MM",
+      "calls": 2081.0,
+      "elapsed_ms": 1.4832755,
+      "tt_hit_rate": null,
+      "completion_rate": 1.0
+    },
+    {
+      "depth": 4,
+      "algorithm": "AB",
+      "calls": 540.0,
+      "elapsed_ms": 0.48794,
+      "tt_hit_rate": null,
+      "completion_rate": 1.0
+    },
+    {
+      "depth": 4,
+      "algorithm": "AB+Order",
+      "calls": 167.5,
+      "elapsed_ms": 0.306086,
+      "tt_hit_rate": null,
+      "completion_rate": 1.0
+    },
+    {
+      "depth": 4,
+      "algorithm": "AB+TT",
+      "calls": 540.0,
+      "elapsed_ms": 0.5792365,
+      "tt_hit_rate": 0.0,
+      "completion_rate": 1.0
+    },
+    {
+      "depth": 4,
+      "algorithm": "AB+Order+TT",
+      "calls": 167.5,
+      "elapsed_ms": 0.339302,
+      "tt_hit_rate": 0.0,
+      "completion_rate": 1.0
+    },
+    {
+      "depth": 6,
+      "algorithm": "MM",
+      "calls": 28961.0,
+      "elapsed_ms": 22.70158,
+      "tt_hit_rate": null,
+      "completion_rate": 1.0
+    },
+    {
+      "depth": 6,
+      "algorithm": "AB",
+      "calls": 3286.0,
+      "elapsed_ms": 3.3733715,
+      "tt_hit_rate": null,
+      "completion_rate": 1.0
+    },
+    {
+      "depth": 6,
+      "algorithm": "AB+Order",
+      "calls": 790.0,
+      "elapsed_ms": 1.306478,
+      "tt_hit_rate": null,
+      "completion_rate": 1.0
+    },
+    {
+      "depth": 6,
+      "algorithm": "AB+TT",
+      "calls": 2243.0,
+      "elapsed_ms": 2.7664055,
+      "tt_hit_rate": 0.3707172136731508,
+      "completion_rate": 1.0
+    },
+    {
+      "depth": 6,
+      "algorithm": "AB+Order+TT",
+      "calls": 654.5,
+      "elapsed_ms": 1.291165,
+      "tt_hit_rate": 0.2022807605671907,
+      "completion_rate": 1.0
+    },
+    {
+      "depth": 8,
+      "algorithm": "MM",
+      "calls": 109601.0,
+      "elapsed_ms": 106.3004,
+      "tt_hit_rate": null,
+      "completion_rate": 1.0
+    },
+    {
+      "depth": 8,
+      "algorithm": "AB",
+      "calls": 11288.0,
+      "elapsed_ms": 12.2764185,
+      "tt_hit_rate": null,
+      "completion_rate": 1.0
+    },
+    {
+      "depth": 8,
+      "algorithm": "AB+Order",
+      "calls": 2101.5,
+      "elapsed_ms": 3.3794385,
+      "tt_hit_rate": null,
+      "completion_rate": 1.0
+    },
+    {
+      "depth": 8,
+      "algorithm": "AB+TT",
+      "calls": 3945.5,
+      "elapsed_ms": 5.442515,
+      "tt_hit_rate": 0.5711745472487456,
+      "completion_rate": 1.0
+    },
+    {
+      "depth": 8,
+      "algorithm": "AB+Order+TT",
+      "calls": 1147.0,
+      "elapsed_ms": 2.34383,
+      "tt_hit_rate": 0.39662422239022055,
+      "completion_rate": 1.0
+    }
+  ],
+  "paired_ablation": {
+    "4": {
+      "common_completed": 20,
+      "calls_ratio_to_MM": {
+        "MM": 1.0,
+        "AB": 0.25949062950504564,
+        "AB+Order": 0.08049014896684287,
+        "AB+TT": 0.25949062950504564,
+        "AB+Order+TT": 0.08049014896684287
+      },
+      "time_ratio_to_MM": {
+        "MM": 1.0,
+        "AB": 0.3241602751499021,
+        "AB+Order": 0.19815261089212716,
+        "AB+TT": 0.3857181348259566,
+        "AB+Order+TT": 0.2259734792350177
+      }
+    },
+    "6": {
+      "common_completed": 20,
+      "calls_ratio_to_MM": {
+        "MM": 1.0,
+        "AB": 0.11346293290977522,
+        "AB+Order": 0.027278063602776147,
+        "AB+TT": 0.07744898311522391,
+        "AB+Order+TT": 0.022599357756983532
+      },
+      "time_ratio_to_MM": {
+        "MM": 1.0,
+        "AB": 0.14969487535142545,
+        "AB+Order": 0.0573739368446578,
+        "AB+TT": 0.12270014407631778,
+        "AB+Order+TT": 0.05603531575049396
+      }
+    },
+    "8": {
+      "common_completed": 20,
+      "calls_ratio_to_MM": {
+        "MM": 1.0,
+        "AB": 0.10299176102407825,
+        "AB+Order": 0.01917409512686928,
+        "AB+TT": 0.03599875913540935,
+        "AB+Order+TT": 0.0104652329814509
+      },
+      "time_ratio_to_MM": {
+        "MM": 1.0,
+        "AB": 0.10871449773551667,
+        "AB+Order": 0.0319360789247877,
+        "AB+TT": 0.049987631461487214,
+        "AB+Order+TT": 0.02211888513620516
+      }
+    }
+  },
+  "ordering": [
+    {
+      "ordering": "fixed",
+      "instances": 20,
+      "calls": 3286.0,
+      "elapsed_ms": 3.3733715
+    },
+    {
+      "ordering": "immediate",
+      "instances": 20,
+      "calls": 844.0,
+      "elapsed_ms": 1.2480335
+    },
+    {
+      "ordering": "competition",
+      "instances": 20,
+      "calls": 790.0,
+      "elapsed_ms": 1.306478
+    }
+  ],
+  "sensitivity_integer_ranges": {
+    "teacher": {
+      "2": [
+        {
+          "start": 0,
+          "stop": 2,
+          "actions": [
+            "T1",
+            "T2"
+          ]
+        },
+        {
+          "start": 3,
+          "stop": 7,
+          "actions": [
+            "T2"
+          ]
+        },
+        {
+          "start": 8,
+          "stop": 20,
+          "actions": [
+            "T3"
+          ]
+        }
+      ],
+      "4": [
+        {
+          "start": 0,
+          "stop": 5,
+          "actions": [
+            "T2"
+          ]
+        },
+        {
+          "start": 6,
+          "stop": 6,
+          "actions": [
+            "T2",
+            "T3"
+          ]
+        },
+        {
+          "start": 7,
+          "stop": 20,
+          "actions": [
+            "T3"
+          ]
+        }
+      ]
+    },
+    "C3": {
+      "2": [
+        {
+          "start": 0,
+          "stop": 20,
+          "actions": [
+            "T1"
+          ]
+        },
+        {
+          "start": 21,
+          "stop": 40,
+          "actions": [
+            "T2"
+          ]
+        }
+      ],
+      "4": [
+        {
+          "start": 0,
+          "stop": 18,
+          "actions": [
+            "T1"
+          ]
+        },
+        {
+          "start": 19,
+          "stop": 19,
+          "actions": [
+            "T1",
+            "T2"
+          ]
+        },
+        {
+          "start": 20,
+          "stop": 40,
+          "actions": [
+            "T2"
+          ]
+        }
+      ]
+    }
+  },
+  "scaling": [
+    {
+      "axis": "depth",
+      "axis_value": 2,
+      "algorithm": "AB",
+      "complete": 20,
+      "total": 20,
+      "calls": 53.0,
+      "search_ms": 0.048235,
+      "preprocess_ms": 44.58983333333333,
+      "end_to_end_ms": 44.63669246058425,
+      "normalized_utility": 0.1206896551724138
+    },
+    {
+      "axis": "depth",
+      "axis_value": 2,
+      "algorithm": "AB+Order+TT",
+      "complete": 20,
+      "total": 20,
+      "calls": 29.0,
+      "search_ms": 0.0641105,
+      "preprocess_ms": 44.58983333333333,
+      "end_to_end_ms": 44.65480563211912,
+      "normalized_utility": 0.1206896551724138
+    },
+    {
+      "axis": "depth",
+      "axis_value": 2,
+      "algorithm": "MM",
+      "complete": 20,
+      "total": 20,
+      "calls": 101.0,
+      "search_ms": 0.069092,
+      "preprocess_ms": 44.58983333333333,
+      "end_to_end_ms": 44.658136208188786,
+      "normalized_utility": 0.1206896551724138
+    },
+    {
+      "axis": "depth",
+      "axis_value": 4,
+      "algorithm": "AB",
+      "complete": 20,
+      "total": 20,
+      "calls": 1089.0,
+      "search_ms": 0.987624,
+      "preprocess_ms": 44.58983333333333,
+      "end_to_end_ms": 45.45500537332758,
+      "normalized_utility": 0.3793103448275862
+    },
+    {
+      "axis": "depth",
+      "axis_value": 4,
+      "algorithm": "AB+Order+TT",
+      "complete": 20,
+      "total": 20,
+      "calls": 337.0,
+      "search_ms": 0.6627735,
+      "preprocess_ms": 44.58983333333333,
+      "end_to_end_ms": 45.18415569917504,
+      "normalized_utility": 0.3793103448275862
+    },
+    {
+      "axis": "depth",
+      "axis_value": 4,
+      "algorithm": "MM",
+      "complete": 20,
+      "total": 20,
+      "calls": 5861.0,
+      "search_ms": 4.0642785,
+      "preprocess_ms": 44.58983333333333,
+      "end_to_end_ms": 48.654112179487186,
+      "normalized_utility": 0.3793103448275862
+    },
+    {
+      "axis": "depth",
+      "axis_value": 6,
+      "algorithm": "AB",
+      "complete": 20,
+      "total": 20,
+      "calls": 11132.0,
+      "search_ms": 10.471165,
+      "preprocess_ms": 44.58983333333333,
+      "end_to_end_ms": 55.72815375,
+      "normalized_utility": 0.5172413793103449
+    },
+    {
+      "axis": "depth",
+      "axis_value": 6,
+      "algorithm": "AB+Order+TT",
+      "complete": 20,
+      "total": 20,
+      "calls": 1656.5,
+      "search_ms": 3.438583,
+      "preprocess_ms": 44.58983333333333,
+      "end_to_end_ms": 47.90008758043758,
+      "normalized_utility": 0.5172413793103449
+    },
+    {
+      "axis": "depth",
+      "axis_value": 6,
+      "algorithm": "MM",
+      "complete": 20,
+      "total": 20,
+      "calls": 187301.0,
+      "search_ms": 136.40965,
+      "preprocess_ms": 44.58983333333333,
+      "end_to_end_ms": 182.4936166666667,
+      "normalized_utility": 0.5172413793103449
+    },
+    {
+      "axis": "depth",
+      "axis_value": 8,
+      "algorithm": "AB",
+      "complete": 20,
+      "total": 20,
+      "calls": 80731.5,
+      "search_ms": 85.0716,
+      "preprocess_ms": 44.58983333333333,
+      "end_to_end_ms": 128.01966666666667,
+      "normalized_utility": 0.6206896551724138
+    },
+    {
+      "axis": "depth",
+      "axis_value": 8,
+      "algorithm": "AB+Order+TT",
+      "complete": 20,
+      "total": 20,
+      "calls": 4606.0,
+      "search_ms": 9.1032,
+      "preprocess_ms": 44.58983333333333,
+      "end_to_end_ms": 53.16829285714285,
+      "normalized_utility": 0.6206896551724138
+    },
+    {
+      "axis": "depth",
+      "axis_value": 8,
+      "algorithm": "MM",
+      "complete": 20,
+      "total": 20,
+      "calls": 2606501.0,
+      "search_ms": 2100.72025,
+      "preprocess_ms": 44.58983333333333,
+      "end_to_end_ms": 2153.32395,
+      "normalized_utility": 0.6206896551724138
+    },
+    {
+      "axis": "full_search_reference",
+      "axis_value": 4,
+      "algorithm": "AB",
+      "complete": 20,
+      "total": 20,
+      "calls": 45.5,
+      "search_ms": 0.048883,
+      "preprocess_ms": 3.1293222800925924,
+      "end_to_end_ms": 3.1787353979577215,
+      "normalized_utility": 0.6428571428571429
+    },
+    {
+      "axis": "full_search_reference",
+      "axis_value": 4,
+      "algorithm": "AB+Order+TT",
+      "complete": 20,
+      "total": 20,
+      "calls": 31.0,
+      "search_ms": 0.0567395,
+      "preprocess_ms": 3.1293222800925924,
+      "end_to_end_ms": 3.1891239325084872,
+      "normalized_utility": 0.6428571428571429
+    },
+    {
+      "axis": "full_search_reference",
+      "axis_value": 4,
+      "algorithm": "MM",
+      "complete": 20,
+      "total": 20,
+      "calls": 65.0,
+      "search_ms": 0.0585785,
+      "preprocess_ms": 3.1293222800925924,
+      "end_to_end_ms": 3.188843014277723,
+      "normalized_utility": 0.6428571428571429
+    },
+    {
+      "axis": "full_search_reference",
+      "axis_value": 6,
+      "algorithm": "AB",
+      "complete": 20,
+      "total": 20,
+      "calls": 528.5,
+      "search_ms": 0.5578515,
+      "preprocess_ms": 5.9625176470588235,
+      "end_to_end_ms": 6.605317490703179,
+      "normalized_utility": 0.75
+    },
+    {
+      "axis": "full_search_reference",
+      "axis_value": 6,
+      "algorithm": "AB+Order+TT",
+      "complete": 20,
+      "total": 20,
+      "calls": 221.0,
+      "search_ms": 0.413839,
+      "preprocess_ms": 5.9625176470588235,
+      "end_to_end_ms": 6.467113242014393,
+      "normalized_utility": 0.75
+    },
+    {
+      "axis": "full_search_reference",
+      "axis_value": 6,
+      "algorithm": "MM",
+      "complete": 20,
+      "total": 20,
+      "calls": 1957.0,
+      "search_ms": 1.78165,
+      "preprocess_ms": 5.9625176470588235,
+      "end_to_end_ms": 7.736721355850031,
+      "normalized_utility": 0.75
+    },
+    {
+      "axis": "full_search_reference",
+      "axis_value": 8,
+      "algorithm": "AB",
+      "complete": 20,
+      "total": 20,
+      "calls": 11738.5,
+      "search_ms": 12.6289255,
+      "preprocess_ms": 9.531665,
+      "end_to_end_ms": 21.596979285714283,
+      "normalized_utility": 0.7142857142857143
+    },
+    {
+      "axis": "full_search_reference",
+      "axis_value": 8,
+      "algorithm": "AB+Order+TT",
+      "complete": 20,
+      "total": 20,
+      "calls": 1368.0,
+      "search_ms": 2.697136,
+      "preprocess_ms": 9.531665,
+      "end_to_end_ms": 12.351715067645602,
+      "normalized_utility": 0.7142857142857143
+    },
+    {
+      "axis": "full_search_reference",
+      "axis_value": 8,
+      "algorithm": "MM",
+      "complete": 20,
+      "total": 20,
+      "calls": 109601.0,
+      "search_ms": 104.075,
+      "preprocess_ms": 9.531665,
+      "end_to_end_ms": 113.49340416666665,
+      "normalized_utility": 0.7142857142857143
+    },
+    {
+      "axis": "map_size",
+      "axis_value": 7,
+      "algorithm": "AB",
+      "complete": 20,
+      "total": 20,
+      "calls": 488.0,
+      "search_ms": 0.509645,
+      "preprocess_ms": 1.8071021785714287,
+      "end_to_end_ms": 2.3284126007625274,
+      "normalized_utility": 1.5833333333333335
+    },
+    {
+      "axis": "map_size",
+      "axis_value": 7,
+      "algorithm": "AB+Order+TT",
+      "complete": 20,
+      "total": 20,
+      "calls": 180.0,
+      "search_ms": 0.34008,
+      "preprocess_ms": 1.8071021785714287,
+      "end_to_end_ms": 2.1536063645786467,
+      "normalized_utility": 1.5833333333333335
+    },
+    {
+      "axis": "map_size",
+      "axis_value": 7,
+      "algorithm": "MM",
+      "complete": 20,
+      "total": 20,
+      "calls": 1957.0,
+      "search_ms": 1.7786275,
+      "preprocess_ms": 1.8071021785714287,
+      "end_to_end_ms": 3.585951060533134,
+      "normalized_utility": 1.5833333333333335
+    },
+    {
+      "axis": "map_size",
+      "axis_value": 15,
+      "algorithm": "AB",
+      "complete": 20,
+      "total": 20,
+      "calls": 511.5,
+      "search_ms": 0.5375535,
+      "preprocess_ms": 5.326376470588235,
+      "end_to_end_ms": 5.808973722962727,
+      "normalized_utility": 1.6785714285714284
+    },
+    {
+      "axis": "map_size",
+      "axis_value": 15,
+      "algorithm": "AB+Order+TT",
+      "complete": 20,
+      "total": 20,
+      "calls": 181.5,
+      "search_ms": 0.3387455,
+      "preprocess_ms": 5.326376470588235,
+      "end_to_end_ms": 5.714662748662104,
+      "normalized_utility": 1.6785714285714284
+    },
+    {
+      "axis": "map_size",
+      "axis_value": 15,
+      "algorithm": "MM",
+      "complete": 20,
+      "total": 20,
+      "calls": 1957.0,
+      "search_ms": 1.779156,
+      "preprocess_ms": 5.326376470588235,
+      "end_to_end_ms": 7.1049327892695535,
+      "normalized_utility": 1.6785714285714284
+    },
+    {
+      "axis": "map_size",
+      "axis_value": 30,
+      "algorithm": "AB",
+      "complete": 20,
+      "total": 20,
+      "calls": 525.0,
+      "search_ms": 0.557983,
+      "preprocess_ms": 15.998707142857143,
+      "end_to_end_ms": 16.479704655559495,
+      "normalized_utility": 1.6379310344827585
+    },
+    {
+      "axis": "map_size",
+      "axis_value": 30,
+      "algorithm": "AB+Order+TT",
+      "complete": 20,
+      "total": 20,
+      "calls": 181.5,
+      "search_ms": 0.34334,
+      "preprocess_ms": 15.998707142857143,
+      "end_to_end_ms": 16.38930869311745,
+      "normalized_utility": 1.6379310344827585
+    },
+    {
+      "axis": "map_size",
+      "axis_value": 30,
+      "algorithm": "MM",
+      "complete": 20,
+      "total": 20,
+      "calls": 1957.0,
+      "search_ms": 1.782795,
+      "preprocess_ms": 15.998707142857143,
+      "end_to_end_ms": 17.804791137566138,
+      "normalized_utility": 1.6379310344827585
+    },
+    {
+      "axis": "map_size",
+      "axis_value": 50,
+      "algorithm": "AB",
+      "complete": 20,
+      "total": 20,
+      "calls": 485.0,
+      "search_ms": 0.5173585,
+      "preprocess_ms": 39.037666666666674,
+      "end_to_end_ms": 39.45854493397663,
+      "normalized_utility": 1.693877551020408
+    },
+    {
+      "axis": "map_size",
+      "axis_value": 50,
+      "algorithm": "AB+Order+TT",
+      "complete": 20,
+      "total": 20,
+      "calls": 184.0,
+      "search_ms": 0.3480365,
+      "preprocess_ms": 39.037666666666674,
+      "end_to_end_ms": 39.398000426136356,
+      "normalized_utility": 1.693877551020408
+    },
+    {
+      "axis": "map_size",
+      "axis_value": 50,
+      "algorithm": "MM",
+      "complete": 20,
+      "total": 20,
+      "calls": 1957.0,
+      "search_ms": 1.782291,
+      "preprocess_ms": 39.037666666666674,
+      "end_to_end_ms": 40.8372782401168,
+      "normalized_utility": 1.693877551020408
+    },
+    {
+      "axis": "treasure_count",
+      "axis_value": 4,
+      "algorithm": "AB",
+      "complete": 20,
+      "total": 20,
+      "calls": 50.5,
+      "search_ms": 0.052656,
+      "preprocess_ms": 10.09575,
+      "end_to_end_ms": 10.144795091648069,
+      "normalized_utility": 0.7931034482758621
+    },
+    {
+      "axis": "treasure_count",
+      "axis_value": 4,
+      "algorithm": "AB+Order+TT",
+      "complete": 20,
+      "total": 20,
+      "calls": 31.0,
+      "search_ms": 0.056198,
+      "preprocess_ms": 10.09575,
+      "end_to_end_ms": 10.15608483626685,
+      "normalized_utility": 0.7931034482758621
+    },
+    {
+      "axis": "treasure_count",
+      "axis_value": 4,
+      "algorithm": "MM",
+      "complete": 20,
+      "total": 20,
+      "calls": 65.0,
+      "search_ms": 0.0585605,
+      "preprocess_ms": 10.09575,
+      "end_to_end_ms": 10.155269746385791,
+      "normalized_utility": 0.7931034482758621
+    },
+    {
+      "axis": "treasure_count",
+      "axis_value": 6,
+      "algorithm": "AB",
+      "complete": 20,
+      "total": 20,
+      "calls": 190.5,
+      "search_ms": 0.1822745,
+      "preprocess_ms": 17.527225,
+      "end_to_end_ms": 17.792284353250793,
+      "normalized_utility": 0.3448275862068966
+    },
+    {
+      "axis": "treasure_count",
+      "axis_value": 6,
+      "algorithm": "AB+Order+TT",
+      "complete": 20,
+      "total": 20,
+      "calls": 89.0,
+      "search_ms": 0.164531,
+      "preprocess_ms": 17.527225,
+      "end_to_end_ms": 17.685802118237866,
+      "normalized_utility": 0.3448275862068966
+    },
+    {
+      "axis": "treasure_count",
+      "axis_value": 6,
+      "algorithm": "MM",
+      "complete": 20,
+      "total": 20,
+      "calls": 517.0,
+      "search_ms": 0.389902,
+      "preprocess_ms": 17.527225,
+      "end_to_end_ms": 17.91914486362342,
+      "normalized_utility": 0.3448275862068966
+    },
+    {
+      "axis": "treasure_count",
+      "axis_value": 8,
+      "algorithm": "AB",
+      "complete": 20,
+      "total": 20,
+      "calls": 470.5,
+      "search_ms": 0.44029,
+      "preprocess_ms": 29.010725,
+      "end_to_end_ms": 29.42423286813922,
+      "normalized_utility": 0.22413793103448276
+    },
+    {
+      "axis": "treasure_count",
+      "axis_value": 8,
+      "algorithm": "AB+Order+TT",
+      "complete": 20,
+      "total": 20,
+      "calls": 169.0,
+      "search_ms": 0.335296,
+      "preprocess_ms": 29.010725,
+      "end_to_end_ms": 29.400319090670862,
+      "normalized_utility": 0.22413793103448276
+    },
+    {
+      "axis": "treasure_count",
+      "axis_value": 8,
+      "algorithm": "MM",
+      "complete": 20,
+      "total": 20,
+      "calls": 2081.0,
+      "search_ms": 1.468777,
+      "preprocess_ms": 29.010725,
+      "end_to_end_ms": 30.479716685520362,
+      "normalized_utility": 0.22413793103448276
+    },
+    {
+      "axis": "treasure_count",
+      "axis_value": 10,
+      "algorithm": "AB",
+      "complete": 20,
+      "total": 20,
+      "calls": 994.5,
+      "search_ms": 0.916702,
+      "preprocess_ms": 42.96501666666666,
+      "end_to_end_ms": 44.10414726390444,
+      "normalized_utility": 0.20689655172413793
+    },
+    {
+      "axis": "treasure_count",
+      "axis_value": 10,
+      "algorithm": "AB+Order+TT",
+      "complete": 20,
+      "total": 20,
+      "calls": 337.0,
+      "search_ms": 0.65665,
+      "preprocess_ms": 42.96501666666666,
+      "end_to_end_ms": 43.6462542206568,
+      "normalized_utility": 0.20689655172413793
+    },
+    {
+      "axis": "treasure_count",
+      "axis_value": 10,
+      "algorithm": "MM",
+      "complete": 20,
+      "total": 20,
+      "calls": 5861.0,
+      "search_ms": 4.070026,
+      "preprocess_ms": 42.96501666666666,
+      "end_to_end_ms": 46.96713397435897,
+      "normalized_utility": 0.20689655172413793
+    },
+    {
+      "axis": "treasure_count",
+      "axis_value": 12,
+      "algorithm": "AB",
+      "complete": 20,
+      "total": 20,
+      "calls": 1614.0,
+      "search_ms": 1.5669065,
+      "preprocess_ms": 59.911425,
+      "end_to_end_ms": 61.67961604347826,
+      "normalized_utility": 0.10344827586206896
+    },
+    {
+      "axis": "treasure_count",
+      "axis_value": 12,
+      "algorithm": "AB+Order+TT",
+      "complete": 20,
+      "total": 20,
+      "calls": 501.0,
+      "search_ms": 1.072895,
+      "preprocess_ms": 59.911425,
+      "end_to_end_ms": 60.91764363799283,
+      "normalized_utility": 0.10344827586206896
+    },
+    {
+      "axis": "treasure_count",
+      "axis_value": 12,
+      "algorithm": "MM",
+      "complete": 20,
+      "total": 20,
+      "calls": 13345.0,
+      "search_ms": 9.0898225,
+      "preprocess_ms": 59.911425,
+      "end_to_end_ms": 68.98416666666665,
+      "normalized_utility": 0.10344827586206896
+    }
+  ],
+  "caveats": [
+    "artificial cases are explanatory curated examples",
+    "decision regret uses a common full-depth action-value reference",
+    "paired ratios are calculated per identical instance before aggregation",
+    "normalised map generation does not make different grids exactly equivalent",
+    "optimal-action ties are retained in the value sweeps"
+  ]
+}

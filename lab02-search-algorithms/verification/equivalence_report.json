@@ -1,0 +1,278 @@
+{
+  "status": "passed",
+  "experiment_groups": 17,
+  "matched_rows": 4199,
+  "scope": "全部17组重新求解，与原正式记录逐条比较答案、参数、输入哈希和确定性统计",
+  "performance_rebenchmarked": false,
+  "questions": [
+    {
+      "question": 1,
+      "folder": "q1-maze",
+      "status": "passed",
+      "baseline_rows": 564,
+      "rerun_rows": 564,
+      "matched_rows": 564,
+      "baseline_files_sha256_verified": 11,
+      "teacher": {
+        "steps": 7,
+        "coordinates": 8,
+        "expanded": [
+          15,
+          10,
+          7
+        ]
+      },
+      "correctness_tests": "passed",
+      "independent_saved_answer_checks": "passed",
+      "compared_fields": [
+        "algorithm",
+        "attempts",
+        "cost",
+        "density",
+        "expanded",
+        "expected_cost",
+        "experiment_id",
+        "generated",
+        "heuristic",
+        "instance_name",
+        "instance_sha256",
+        "max_open",
+        "ordering",
+        "path",
+        "path_steps",
+        "reachable",
+        "run_key",
+        "seed",
+        "size",
+        "stale_pops",
+        "status"
+      ],
+      "excluded_fields": "所有以_ns结尾的计时字段、timing_mode、batch_size",
+      "rerun_mode": "single: functional equality only; not a performance measurement",
+      "verification_seconds": 3.136,
+      "mismatches": []
+    },
+    {
+      "question": 2,
+      "folder": "q2-weighted",
+      "status": "passed",
+      "baseline_rows": 464,
+      "rerun_rows": 464,
+      "matched_rows": 464,
+      "baseline_files_sha256_verified": 11,
+      "teacher": {
+        "cost": 7,
+        "expanded": [
+          14,
+          10,
+          8
+        ]
+      },
+      "correctness_tests": "passed",
+      "independent_saved_answer_checks": "passed",
+      "compared_fields": [
+        "algorithm",
+        "attempts",
+        "cost",
+        "expanded",
+        "expected_cost",
+        "experiment_id",
+        "generated",
+        "h_goal",
+        "h_start",
+        "heuristic",
+        "inconsistent_edges",
+        "instance_name",
+        "instance_sha256",
+        "max_open",
+        "ordering",
+        "overestimated_nodes",
+        "path",
+        "path_steps",
+        "pattern",
+        "query_costs",
+        "query_count",
+        "query_starts",
+        "reachable",
+        "run_key",
+        "seed",
+        "size",
+        "stale_pops",
+        "status"
+      ],
+      "excluded_fields": "所有以_ns结尾的计时字段、timing_mode、batch_size",
+      "rerun_mode": "single: functional equality only; not a performance measurement",
+      "verification_seconds": 14.25,
+      "mismatches": []
+    },
+    {
+      "question": 3,
+      "folder": "q3-alpha-beta",
+      "status": "passed",
+      "baseline_rows": 1623,
+      "rerun_rows": 1623,
+      "matched_rows": 1623,
+      "baseline_files_sha256_verified": 11,
+      "teacher": {
+        "value": 5,
+        "calls": [
+          15,
+          14
+        ],
+        "leaf_evals": [
+          8,
+          7
+        ]
+      },
+      "correctness_tests": "passed",
+      "independent_saved_answer_checks": "passed",
+      "compared_fields": [
+        "ab_cutoffs",
+        "algorithm",
+        "branching",
+        "calls",
+        "depth",
+        "early_stop",
+        "expanded",
+        "expected_value",
+        "experiment_id",
+        "instance_name",
+        "instance_sha256",
+        "leaf_evals",
+        "ordering",
+        "reuse_probability",
+        "run_key",
+        "seed",
+        "status",
+        "tt_cutoffs",
+        "tt_entries",
+        "tt_hits",
+        "tt_probes",
+        "unique_nodes",
+        "value"
+      ],
+      "excluded_fields": "所有以_ns结尾的计时字段、timing_mode、batch_size",
+      "rerun_mode": "single: functional equality only; not a performance measurement",
+      "verification_seconds": 21.797,
+      "mismatches": []
+    },
+    {
+      "question": 4,
+      "folder": "q4-treasure",
+      "status": "passed",
+      "baseline_rows": 1548,
+      "rerun_rows": 1548,
+      "matched_rows": 1548,
+      "baseline_files_sha256_verified": 16,
+      "teacher": {
+        "H2": [
+          "T2",
+          -1
+        ],
+        "H4": [
+          "T3",
+          3
+        ],
+        "distance_matrix": [
+          [
+            0,
+            12,
+            10,
+            4,
+            8,
+            8
+          ],
+          [
+            12,
+            0,
+            8,
+            8,
+            4,
+            10
+          ],
+          [
+            10,
+            8,
+            0,
+            6,
+            6,
+            12
+          ],
+          [
+            4,
+            8,
+            6,
+            0,
+            6,
+            6
+          ],
+          [
+            8,
+            4,
+            6,
+            6,
+            0,
+            6
+          ],
+          [
+            8,
+            10,
+            12,
+            6,
+            6,
+            0
+          ]
+        ]
+      },
+      "correctness_tests": "passed",
+      "independent_saved_answer_checks": "passed",
+      "compared_fields": [
+        "ab_cutoffs",
+        "algorithm",
+        "analysis_role",
+        "axis",
+        "axis_value",
+        "best_target",
+        "best_value",
+        "cache",
+        "calls",
+        "depth",
+        "distance_expanded",
+        "distance_searches",
+        "eta",
+        "expanded",
+        "expected_value",
+        "experiment_id",
+        "geometry_sha256",
+        "independently_verified",
+        "instance_name",
+        "instance_sha256",
+        "leaf_evals",
+        "optimal_actions",
+        "ordering",
+        "policy",
+        "pruning",
+        "reference_states",
+        "run_key",
+        "seed",
+        "size",
+        "source_hash",
+        "status",
+        "sweep_case",
+        "sweep_target",
+        "sweep_value",
+        "tie_researches",
+        "treasure_count",
+        "tt_capacity_skips",
+        "tt_cutoffs",
+        "tt_entries",
+        "tt_hits",
+        "tt_probes"
+      ],
+      "excluded_fields": "所有以_ns结尾的计时字段、timing_mode、batch_size",
+      "rerun_mode": "single: functional equality only; not a performance measurement",
+      "verification_seconds": 82.267,
+      "mismatches": []
+    }
+  ]
+}
